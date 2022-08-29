@@ -6,7 +6,7 @@
        <img src="../assets/imgsmall.jpg">
         <p>Para el mundo del ciclismo, colombia ha sido un referente internacional, ya que tenemos grandes
           ciclistas, los cuales se han destacado por su gran talento, 
-          a continuacion veremos algunos deportistas:</p>
+          a continuacion veremos algunos deportistas: de colombia bien lindos</p>
    </div>
   </div>
     <div>
