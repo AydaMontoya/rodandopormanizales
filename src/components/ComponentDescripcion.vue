@@ -36,6 +36,7 @@ export default {
 
 .imagen-Catedral{
     width: 25%;
+    height: 80%;
     border-radius: 20px;
 }
 

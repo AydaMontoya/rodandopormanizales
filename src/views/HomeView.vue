@@ -2,7 +2,7 @@
 <div class="vistahome">
   <div class="textos-header">
             <h1>RODANDO POR MANIZALES</h1>
-            <h2>Tu mejor aliado para salir a rodar</h2>
+            <h2>Aqui encontraras las mejores rutas con la informacion necesaria para salir a rodar en compañia de tus amigos, seremos tu mejor aliado para que puedas disfrutar los maravillosos paisajes caldenses.</h2>
         </div>
         <div class="wave" style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none"
                 style="height: 100%; width: 100%;">
