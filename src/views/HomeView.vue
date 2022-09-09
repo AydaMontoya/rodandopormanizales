@@ -7,22 +7,20 @@
         <div class="wave" style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none"
                 style="height: 100%; width: 100%;">
                 <path d="M0.00,49.98 C150.00,150.00 349.20,-50.00 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
-                    style="stroke: none; fill: #fff;"></path>
-            </svg></div>
-            <descripcion/>
-            <PiedePagina/>
+                    style="stroke: none; fill:  #f2f2f2;"></path>
+            </svg>
+        </div>          
 </div>
+<descripcion/>
 </template>
 
 <script >
 import descripcion from '@/components/ComponentDescripcion.vue';
-import PiedePagina from '@/components/ComponentFooter.vue'
 
 export default {
   name: 'HomeView',
   components: {
     descripcion,
-    PiedePagina,
 },
 }
 </script>
@@ -32,8 +30,8 @@ export default {
     width: 100%;
     height: 600px;
     background: #bc4e9c;
-    background: -webkit-linear-gradient(to right, hsla(340, 95%, 50%, 0.459), hsla(317, 45%, 52%, 0.664)), url(../assets/rodandoxmanizales.jpg);
-    background: linear-gradient(to right, hsla(340, 95%, 50%, 0.459), hsla(317, 45%, 52%, 0.664)), url(../assets/rodandoxmanizales2.jpg);
+    background: -webkit-linear-gradient(to right, hsla(340, 95%, 50%, 0.459), hsla(317, 45%, 52%, 0.664)), url(../assets/FondoHome.jpg);
+    background: linear-gradient(to right, hsla(340, 95%, 50%, 0.459), hsla(317, 45%, 52%, 0.664)), url(../assets/FondoHome.jpg);
     background-size: cover;
     background-attachment: fixed;
     position: relative;
@@ -49,12 +47,10 @@ export default {
 }
 
 .textos-header h1{
-    font-size: 50px;
     color:#fff;
 }
 
 .textos-header h2{
-    font-size: 30px;
     font-weight: 300;
     color:#fff;
 }
@@ -63,5 +59,9 @@ export default {
     position: absolute;
     bottom: 0;
     width: 100%;
+}
+
+h2{
+    padding: 20px 0px 0px 0px ;
 }
 </style>

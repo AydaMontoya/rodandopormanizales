@@ -3,8 +3,7 @@
 <!--     <NavBar/> -->
     <!-- <router-link to="/">Home</router-link> |
     <router-link to="/about">About</router-link> -->
-    <!-- <HelloWorld/> -->
-    <NavBar/>
+    <HelloWorld/>
   <router-view/>
   <ComponentFooter/>
  </div>
@@ -12,16 +11,14 @@
 </template>
 
 <script>
-/* import HelloWorld from '@/components/HelloWorld.vue'; */
+import HelloWorld from '@/components/HelloWorld.vue';
 import ComponentFooter from '@/components/ComponentFooter.vue';
-import NavBar from './components/NavBar.vue';
 
 export default {
   name: 'HomeView',
   components: {
-    /* HelloWorld, */
+    HelloWorld,
     ComponentFooter,
-    NavBar,
 },
 }
 </script>

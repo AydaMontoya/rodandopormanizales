@@ -1,7 +1,7 @@
 <template>
-<div class="container"> <!-- HEADER -->
-      <div class="containerLogo"> <!-- logo -->
-        <a href=""><img src="../assets/Logorpm.png" width="210" height="210" alt="Logo de mi proyecto" /></a>
+<div class="containerNav"> 
+      <div class="containerLogo"> 
+        <a href=""><img src="../assets/Logorpm.png" width="220" height="110" alt="Logo de mi proyecto" /></a>
       </div>  
     <nav>
     <router-link to="/">Home</router-link> |
@@ -22,44 +22,40 @@ export default {
 
 <style scoped>
 
-.container{ /* header */
+.containerNav { 
   display: flex;
-  height: 80px;
-  background: rgba(255, 254, 254, 0.37);
+  height: 150px;
+  background:  #f2f2f2;
   justify-content: space-between;
   align-items: center;
-  padding: 15px;
-
+  padding: 0px;
+  flex-wrap: wrap;
+  gap: 1rem;
 }
-.containerLogo{ /* logo */
+
+.containerLogo{ 
   align-items: center;
-  padding: 20px 0px 0px 20px;
+  padding: 0px 0px 0px 30px;
+  
 }
 
 nav a {
   text-decoration: none;
+  font-size: 20px;
   font-weight: bold;
-  color: #18191a;
+  color: #2A2F35;
   padding-right: 15px;
   padding: 30px 50px 0 0;
+  flex-basis: 20rem;
+  flex-grow: 2;
 }
 
 nav a.router-link-exact-active {
-  color: hsl(23, 82%, 50%);
+  color: #FFC200;
 }
 
 nav a:hover{
-  color: hsl(23, 82%, 50%);
-}
-
-@media (max-width:700px){
-  .container{
-      flex-direction: column;
-  }
-
-  nav{
-    padding: 10px 0px;
-  }
+  color:#FFC200;
 }
 
 </style>

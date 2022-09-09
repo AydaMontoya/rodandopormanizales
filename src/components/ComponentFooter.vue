@@ -1,20 +1,6 @@
 <template>
     <div>
         <footer>
-        <div class="contenedor-footer">
-            <div class="content-foo">
-                <h4>Phone</h4>
-                <p>8296312</p>
-            </div>
-            <div class="content-foo">
-                <h4>Email</h4>
-                <p>8296312</p>
-            </div>
-            <div class="content-foo">
-                <h4>Location</h4>
-                <p>8296312</p>
-            </div>
-        </div>
         <h2 class="titulo-final">&copy; Creado por | Ayda Montoya 
             <a href="https://github.com/AydaMontoya" target="_blanck">
             <img class="git-logo" src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="gitlogo"/></a>
@@ -35,41 +21,20 @@ export default {
 <style>
 
 footer{
-    background: #474747;
+    background: #364A61;
     padding: 10px 0 10px 0;
-    margin: auto;
     overflow: hidden;
-}
-
-.contenedor-footer{
-    display: flex;
-    width: 70%;
-    justify-content: space-evenly;
-    margin: auto;
-    padding-bottom: 5px;
-    border-bottom: 1px solid rgb(219, 215, 215);
-}
-
-.content-foo{
-    text-align: center;
-}
-
-.content-foo h4{
-    color: rgb(246, 240, 240);
-    border-bottom: 3px solid hsl(23, 82%, 50%);
-    padding-bottom: 5px;
-    margin-bottom: 10px;
-}
-
-.content-foo p{
-    color: #ccc;
+    flex-wrap: wrap;
+    gap: 1rem;
 }
 
 .titulo-final{
     text-align: center;
-    font-size: 24px;
-    margin: 20px 0 0 0;
+    font-size: 20px;
+    margin: auto;
     color: #f9f4f4;
+    flex-basis: 20rem;
+    flex-grow: 2;
 }
 
 .git-logo {
