@@ -8,36 +8,33 @@
         <button><router-link to="/difBasica" class="dificultad">Básica</router-link></button>
         <div class="card_content">
             <figure class="card_picture">
-                <img src="../assets/CerroOro1.jpg" alt=""  class="card_img">
+                <img src="../assets/DifMedia.jpg" alt=""  class="card_img">
+                <div class="capa">
+                    <h3>No importa lo lento que vayas, siempre y cuando no te detengas!!!</h3>
+                </div>
             </figure>
-            <div class="card_texts">
-                <h3 class="card_title">No importa lo lento que vayas, siempre y cuando no te detengas.</h3>
-                <!-- <p class="card_paragraph"> siggue asi</p> -->
-            </div>
         </div>
        </div>
        <div class="card_item">
         <button><router-link to="/difIntermedia" class="dificultad">Intermedia</router-link></button>
         <div class="card_content">
             <figure class="card_picture">
-                <img src="../assets/CerroOro1.jpg" alt="" class="card_img">
+                <img src="../assets/DifMedia.jpg" alt="" class="card_img">
+                <div class="capa">
+                    <h3>Que tu bici te lleve donde tu mente soñó</h3>
+                </div>
             </figure>
-            <div class="card_texts">
-                <h3 class="card_title">Que tu bici te lleve donde tu mente soñó.  </h3>
-                <!-- <p class="card_paragraph"> siggue asi</p> -->
-            </div>
         </div>
        </div>
        <div class="card_item">
         <button><router-link to="/difAvanzada" class="dificultad">Avanzada</router-link></button>
         <div class="card_content">
             <figure class="card_picture">
-                <img src="../assets/CerroOro1.jpg" alt=""  class="card_img">
+                <img src="../assets/DifAvanzada.jpg" alt=""  class="card_img">
+                <div class="capa">
+                    <h3>Que tu meta de hoy sea ganarle a tu mejor excusa</h3>
+                </div>
             </figure>
-            <div class="card_texts">
-                <h3 class="card_title">Que tu meta de hoy sea ganarle a tu mejor excusa.</h3>
-                <!-- <p class="card_paragraph"> siggue asi</p> -->
-            </div>
         </div>
        </div>
     </div>
@@ -116,25 +113,60 @@ button:hover {opacity: 0.6}
     width: 90%;
     margin: 0 auto;
 }
-
+/* card_picture card_img capa */
 .card_picture{
     width: 90%;
     margin: 0 auto;
     position: relative;
     bottom: 2em;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 10px 25px rgba(0,0,0,0.50);
+    cursor: pointer;
 }
 
 .card_img{
     width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+
+.card_picture .capa{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(45, 70, 75, 0.6);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+
+.card_picture:hover > .capa{
+    opacity: 1;
+    visibility: visible;
+}
+
+.card_picture:hover > .capa h3{
+    margin-top: 100px;
+    margin-bottom: 15px
+}
+
+.card_picture:hover > img{
+    transform: scale(1.3);
+}
+
+.card_picture .capa h3{
+    color: #e9ecef;
+    font-weight: 400px;
+    margin-bottom: 120px;
+    transition: all 500ms ease-out;
+    margin-top: 30px;
 }
 
 .card_title{
     margin-bottom: 1em;
-}
-
-.card_texts {
-    justify-content: center;
-    text-align: center;  
 }
 
     </style>
