@@ -1,7 +1,7 @@
 <template>
   <div class="header">
     <div class="logo-header">
-      <a href=""><img src="../assets/Logorpm.png"  alt="Logo de mi proyecto" /></a>
+      <a href=""><img src="../assets/LogoOficial1.png"  alt="Logo de mi proyecto" /></a>
     </div>
     <nav class="nav-menu">
 
@@ -43,7 +43,7 @@
   }
 
   .logo-header img{
-    width: 120px;
+    width: 150px;
   }
 
   .header{

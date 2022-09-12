@@ -3,19 +3,17 @@
         <div class="contenedor beneficios">
             <h1 class="titulo">Beneficios de montar en bicicleta</h1>
             <div class="contenedor-beneficios">
-                <img src="../assets/catedral.jpg" alt="" class="imagen-catedral">
-                <div class="contenido-textos">
-                    <h3><span>1</span>Reduce los niveles de estrés</h3>
-                    <h3><span>2</span>Mejora la autoestima</h3>
-                    <h3><span>3</span>Previene el deterioro cognitivo</h3>
-                    <h3><span>4</span>Mejora la memoria</h3>
-                    <h3><span>5</span>Ayuda a controlar las adcciones</h3>
-                    <h3><span>6</span>Mejora el estado animico</h3>
-                    <h3><span>7</span>Reduce la agresividad</h3>
-                    <h3><span>8</span>Mejora las relaciones sociales</h3>
-                    <h3><span>9</span>Te ayuda a ser mas productivo</h3>
-                    <h3><span>10</span>Eres menos propenso a sufrir depresión</h3>
-                </div>
+                <img src="../assets/bici1.jpg" alt="" class="imagen-catedral">
+                <ul class="contenido-textos">
+                    <li>Reduce los niveles de estrés</li>
+                    <li>Mejora la autoestima</li>
+                    <li>Previene el deterioro cognitivo</li>
+                    <li>Mejora la memoria</li>
+                    <li>Ayuda a controlar las adcciones</li>
+                    <li>Mejora el estado animico</li>
+                    <li>Reduce la agresividad</li>
+                    <li>Te ayuda a ser mas productivo</li>
+                </ul>
             </div>
         </div>
     </div>
@@ -47,39 +45,44 @@ export default {
 }
 
 .imagen-catedral{
-    width: 25%;
+    width: 30%;
     border-radius: 10%;
     padding: 0px 0px 30px 0px;
 }
 
 .beneficios .contenido-textos{
     width: 40%;
+    list-style: none;
+    padding: 25px 0px 0px 0px;
 }
 
-.contenido-textos h3{
+.contenido-textos li{
     margin-bottom: 15px;
-    padding: 0px 0px 0px 70px;
-}
-
-.contenido-textos h3 span{
-    background: #FFC200;
+    padding: 0px 0px 0px 80px;
     color: #2A2F35;
     font-weight: bold;
-    border-radius: 50%;
-    display: inline-block;
-    text-align: center;
-    width: 40px;
-    height: 40px;
-    padding: 2px;
-    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
-    margin-right: 12px;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
 }
 
-.contenido-textos h3{
-    padding: 0px 0px 0px 90px;
-    text-align: justify;
-    color: #2A2F35;
-    /* font-weight: bold; */
+
+li::before{
+    content: '';
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-image: url(../assets/icono.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    margin-right: 8px;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
 }
 
 @media screen and (max-width:900px){
@@ -102,7 +105,7 @@ export default {
 
     @media screen and (max-width:500px){
     .imagen-catedral{
-        margin-bottom: 60px;
+        margin-bottom: 40px;
         width: 99%;
     }
 

@@ -33,8 +33,6 @@ footer{
     font-size: 20px;
     margin: auto;
     color: #f9f4f4;
-    flex-basis: 20rem;
-    flex-grow: 2;
 }
 
 .git-logo {
@@ -43,22 +41,9 @@ footer{
 }
 
 @media screen and (max-width:900px){
-    header{
+    footer{
         background-position: center;
     }
 
-    .contenedor-sobre-nosotros{
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .sobre-nosotros .contenido-textos{
-        width: 90%;
-    }
-
-    .imagen-about-us{
-        width: 90%;
-    }
     }
     </style>

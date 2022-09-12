@@ -30,11 +30,12 @@ export default {
     width: 100%;
     height: 600px;
     background: #bc4e9c;
-    background: -webkit-linear-gradient(to right, hsla(340, 95%, 50%, 0.459), hsla(317, 45%, 52%, 0.664)), url(../assets/FondoHome.jpg);
-    background: linear-gradient(to right, hsla(340, 95%, 50%, 0.459), hsla(317, 45%, 52%, 0.664)), url(../assets/FondoHome.jpg);
+    background: /* -webkit-linear-gradient(to right, hsla(340, 95%, 50%, 0.459), hsla(317, 45%, 52%, 0.664)), */ url(../assets/imagenP3.jpg);
+    background: /* linear-gradient(to right, hsla(340, 95%, 50%, 0.459), hsla(317, 45%, 52%, 0.664)), */ url(../assets/imagenP3.jpg);
     background-size: cover;
     background-attachment: fixed;
     position: relative;
+    opacity: 0.7;
 }
 .vistahome .textos-header{
     display: flex;

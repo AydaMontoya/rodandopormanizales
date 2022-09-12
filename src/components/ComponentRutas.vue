@@ -11,7 +11,7 @@
                 <img src="../assets/CerroOro1.jpg" alt=""  class="card_img">
             </figure>
             <div class="card_texts">
-                <h3 class="card_title">no te detengas</h3>
+                <h3 class="card_title">No importa lo lento que vayas, siempre y cuando no te detengas.</h3>
                 <!-- <p class="card_paragraph"> siggue asi</p> -->
             </div>
         </div>
@@ -23,7 +23,7 @@
                 <img src="../assets/CerroOro1.jpg" alt="" class="card_img">
             </figure>
             <div class="card_texts">
-                <h3 class="card_title">no te detengas</h3>
+                <h3 class="card_title">Que tu bici te lleve donde tu mente soñó.  </h3>
                 <!-- <p class="card_paragraph"> siggue asi</p> -->
             </div>
         </div>
@@ -35,7 +35,7 @@
                 <img src="../assets/CerroOro1.jpg" alt=""  class="card_img">
             </figure>
             <div class="card_texts">
-                <h3 class="card_title">no te detengas</h3>
+                <h3 class="card_title">Que tu meta de hoy sea ganarle a tu mejor excusa.</h3>
                 <!-- <p class="card_paragraph"> siggue asi</p> -->
             </div>
         </div>
@@ -84,6 +84,9 @@ button{
     opacity: 1;
     transition: 0.3s;
     border-radius: 5px;
+    flex-grow: 1;
+    width: 160px;
+    height: 50px;
 }
 button:hover {opacity: 0.6}
 
@@ -130,7 +133,8 @@ button:hover {opacity: 0.6}
 }
 
 .card_texts {
-    padding: 16px 60px;    
+    justify-content: center;
+    text-align: center;  
 }
 
     </style>
