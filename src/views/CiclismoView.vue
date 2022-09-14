@@ -1,12 +1,12 @@
 <template>
-<div>
+<!-- <div>
   <div class="informacionciclismo">
    <div class="capa"></div>
    <div class="parrafo">
-       <img src="../assets/imgsmall.jpg">
+
         <p>Para el mundo del ciclismo, colombia ha sido un referente internacional, ya que tenemos grandes
           ciclistas, los cuales se han destacado por su gran talento, 
-          a continuacion veremos algunos deportistas: de colombia bien lindos</p>
+          a continuacion veremos algunos deportistas: </p>
    </div>
   </div>
     <div>
@@ -14,7 +14,7 @@
       <div class="descripcionCiclista">
       <img src="../assets/Nairo.jpg" alt="Nairo Quintana" title="Nairo Quintana" class="imagenesdeciclismo">
       <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime dolores consequatur blanditiis mollitia tempora sint nihil laboriosam consequuntur obcaecati in enim dolorum assumenda, nemo, commodi velit impedit. Iste, officia maxime.</p> 
-    </div>
+      </div>
       <div class="descripcionCiclista">
       <img src="../assets/EganBernal.jpg" alt="Egan Bernal" title="Egan Bernal" class="imagenesdeciclismo"/>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit quam eius facilis vero, pariatur aliquid repudiandae, voluptates eos saepe quo ex voluptatibus assumenda quisquam illum. Id sed laboriosam eaque recusandae.</p>
@@ -37,16 +37,17 @@
       </div>
     </div>
   </div>
-  </div>
+  </div> -->
+  <componentCiclismo/>
 </template> 
 
 <script>
-import HelloWorld from '@/components/HelloWorld.vue'
+import componentCiclismo from '@/components/ComponentCiclismo.vue'
 
 export default {
-  name: 'HomeView',
+  name: 'CiclismoView',
   components: {
-    HelloWorld
+    componentCiclismo
 }
 }
 </script>
@@ -58,7 +59,7 @@ height: 90vh;
 display: flex;
 justify-content: center;
 align-items: center;
-background-image: url("../assets/Fondo.jpg");
+background-image: url("../assets/Plaza-Bolívar-Manizales.jpg");
 background-size: 100% 100%;
 background-repeat: no-repeat;
 }
@@ -72,38 +73,32 @@ background-repeat: no-repeat;
 .parrafo{
     z-index: 1;
     width: 600px;
-    height: 300px;
+    height: 150px;
     padding: 20px 20px;
     margin: 50px;
     font-size: 18px;
     line-height: 1.5;
-    background: rgba(255, 255, 255, 0.737);
+    background: rgba(255, 255, 255, 0.602);
     box-shadow: 1px 5px 25px rgba(0, 0, 0, 0.639);
     border-radius: 5px;
-    text-align: justify;
+    text-align: center;
     color:black
-}
-.parrafo img{
-  width: 200px;
-  border-radius: 5px;
-  float: left;
-  margin-right: 15px;
-  padding: 0px 20px 20px 0px;
 }
 /* estilo descripcion info ciclista aqui */
 .descripcionCiclista{
-  display: flex;
-  width: 93vw;
-  height: 300px;
-  padding-left: 20px 20px;
-  margin: 50px;
-  font-size: 20px;
-  line-height: 1.5;
-  background: rgba(255, 255, 255, 0.737);
-  box-shadow: 1px 5px 25px hsla(23, 82%, 50%, 0.541);
-  border-radius: 5px;
-  text-align: justify;
-  color:black
+  width: 90%;
+    margin: 0 auto;
+    padding: 60px 0px;
+    max-width: 1200px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start; 
+    justify-content: space-evenly;
+    gap: 3.5em;
+    flex-wrap: wrap;
+    background: #e9ecef;
+
 }
 .imagenesdeciclismo{
   border-radius: 20%;

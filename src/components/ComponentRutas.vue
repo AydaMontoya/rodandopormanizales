@@ -115,10 +115,10 @@ button:hover {opacity: 0.6}
 }
 /* card_picture card_img capa */
 .card_picture{
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
     position: relative;
-    bottom: 2em;
+    bottom: 0.5em;
     overflow: hidden;
     border-radius: 6px;
     box-shadow: 0px 10px 25px rgba(0,0,0,0.50);
@@ -149,7 +149,7 @@ button:hover {opacity: 0.6}
 }
 
 .card_picture:hover > .capa h3{
-    margin-top: 100px;
+    margin-top: 130px;
     margin-bottom: 15px
 }
 
