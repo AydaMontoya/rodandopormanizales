@@ -31,7 +31,7 @@
            Medallista de oro en los Juegos Olímpicos de Río 2016 y Juegos Olímpicos de Londres 2012, siendo la única deportista colombiana en conseguir un bicampeonato olímpico. Mariana es la primera mujer latinoamericana en conseguir dos oros olímpicos en un deporte individual</div>
            </div>
            <div class="media-icons">
-            <a href="https://www.instagram.com/nairoquincoficial/" target="_blanck">
+            <a href="https://www.instagram.com/marianapajon/" target="_blanck">
             <img class="logoInstagram" src="../assets/Intagram.png" alt="logoInstagram"/></a>
            </div>
          </div>
@@ -48,7 +48,7 @@
             </div>
            </div>
            <div class="media-icons">
-            <a href="https://www.instagram.com/nairoquincoficial/" target="_blanck">
+            <a href="https://www.instagram.com/rigobertouran/" target="_blanck">
             <img class="logoInstagram" src="../assets/Intagram.png" alt="logoInstagram"/></a>
            </div>
          </div>
@@ -65,7 +65,7 @@
              <div class="job">(Bogotá 13 de enero de 1997) o más conocido como “Escarabajo de oro”. Corredor en la disciplina de Ruta con perfil de escalador.  Equipo INEOS. En 2019 se convirtió en el primer latinoamericano en ganar el Tour de Francia, y el ganador más joven en 110 años (con 22 años), y en 2021 se convirtió en el segundo colombiano en consagrarse campeón del Giro de Italia</div>
            </div>
            <div class="media-icons">
-            <a href="https://www.instagram.com/nairoquincoficial/" target="_blanck">
+            <a href="https://www.instagram.com/eganbernal/" target="_blanck">
             <img class="logoInstagram" src="../assets/Intagram.png" alt="logoInstagram"/></a>
            </div>
          </div>
@@ -81,7 +81,7 @@
             Sus buenas actuaciones la llevaron a participar de los juegos olímpicos de Atenas en 2004 y otras competencias de alto nivel en el ciclismo de pista como lo son los mundiales de ciclismo de pista, los juegos panamericanos, juegos bolivarianos, juegos sudamericanos y juegos centroamericanos y del caribe.En 2016 después de una exitosa carrera se retiró del deporte con 47 años de edad.</div>
            </div>
            <div class="media-icons">
-            <a href="https://www.instagram.com/nairoquincoficial/" target="_blanck">
+            <a href="https://www.instagram.com/marialuisacalle/" target="_blanck">
             <img class="logoInstagram" src="../assets/Intagram.png" alt="logoInstagram"/></a>
            </div>
          </div>
@@ -97,7 +97,7 @@
             Lucho Herrera fue el primer ciclista colombiano y latinoamericano en ganar una de las           tres Grandes Vueltas del ciclismo, tras ganar la Vuelta a España 1987. Fue pionero del          ciclismo colombiano en Europa, y su mayor exponente durante la década de 1980. </div>
            </div>
            <div class="media-icons">
-            <a href="https://www.instagram.com/nairoquincoficial/" target="_blanck">
+            <a href="#">
             <img class="logoInstagram" src="../assets/Intagram.png" alt="logoInstagram"/></a>
            </div>
          </div>
@@ -151,7 +151,7 @@
   width: calc(100% / 2 - 10px);
   display: flex;
   flex-wrap: wrap;
-  margin: 0 20px;
+  margin: 0 2px;
   justify-content: space-between;
 }
 .main-card .cards .card{

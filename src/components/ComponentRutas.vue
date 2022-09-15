@@ -90,7 +90,7 @@ button:hover {opacity: 0.6}
 .card{
     width: 90%;
     margin: 0 auto;
-    padding: 60px 0px;
+    padding: 60px 90px;
     max-width: 1200px;
     min-height: 100vh;
     display: flex;
@@ -101,17 +101,18 @@ button:hover {opacity: 0.6}
 }
 
 .card_item{
-    padding: 0px 0px 30px 0px;
+    padding: 0px 0px 0px 0px;
     margin: 0%;
     flex-basis: 280px;
     max-width: 450px;
     background: #e9ecef;
-    border-radius: 10px;
+    border-radius: 12px;
 }
 
 .card_content{
     width: 90%;
     margin: 0 auto;
+    
 }
 /* card_picture card_img capa */
 .card_picture{
