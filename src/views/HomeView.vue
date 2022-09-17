@@ -1,6 +1,6 @@
 <template>
 <div class="vistahome">
-  <div class="textos-header">
+  <div class="textoHome">
             <h1>RODANDO POR MANIZALES</h1>
             <h2>Aqui encontraras las mejores rutas con la informacion necesaria para salir a rodar en compañia de tus amigos, seremos tu mejor aliado para que puedas disfrutar los maravillosos paisajes caldenses.</h2>
         </div>
@@ -26,34 +26,30 @@ export default {
 </script>
 
 <style scope>
+    
 .vistahome {
     width: 100%;
-    height: 600px;
-    background: #bc4e9c;
-    background: /* -webkit-linear-gradient(to right, hsla(340, 95%, 50%, 0.459), hsla(317, 45%, 52%, 0.664)), */ url(../assets/imagenP3.jpg);
-    background: /* linear-gradient(to right, hsla(340, 95%, 50%, 0.459), hsla(317, 45%, 52%, 0.664)), */ url(../assets/imagenP3.jpg);
+    height: 100vh;
+    background: url(../assets/imagenP3.jpg);
+    background: url(../assets/imagenP3.jpg);
     background-size: cover;
     background-attachment: fixed;
-    position: relative;
-    opacity: 0.7;
-}
-.vistahome .textos-header{
+    background-position: center;
     display: flex;
-    height: 430px;
-    width: 100%;
-    align-items: center;
     justify-content: center;
-    flex-direction: column;
+    align-items: center;
+    position: relative;
+    font-size: 13px;
+    opacity: 0.9;
+    color: #fff;
+}
+
+.textoHome {
+    background-color: rgba(1, 4, 9, 0.552);
+    padding: 20px 20px 10px 50px;
     text-align: center;
-}
-
-.textos-header h1{
-    color:#fff;
-}
-
-.textos-header h2{
-    font-weight: 300;
-    color:#fff;
+    width: 60%;
+    border-radius: 8px;
 }
 
 .wave{
@@ -62,7 +58,4 @@ export default {
     width: 100%;
 }
 
-h2{
-    padding: 20px 0px 0px 0px ;
-}
 </style>
