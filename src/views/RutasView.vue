@@ -1,14 +1,14 @@
 <template>
-   <componentRutas/>
+  <componentRutas />
 </template>
 
 <script>
-import componentRutas from '@/components/ComponentRutas.vue'
+import componentRutas from "@/components/ComponentRutas.vue";
 
 export default {
-  name: 'HomeView',
+  name: "HomeView",
   components: {
-    componentRutas
-},
-}
+    componentRutas,
+  },
+};
 </script>

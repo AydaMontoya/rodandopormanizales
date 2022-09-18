@@ -1,31 +1,36 @@
 <template>
-<div class="containerNav"> 
-      <div class="containerLogo"> 
-        <a href=""><img src="../assets/Logorpm.png" width="220" height="110" alt="Logo de mi proyecto" /></a>
-      </div>  
+  <div class="containerNav">
+    <div class="containerLogo">
+      <a href=""
+        ><img
+          src="../assets/Logorpm.png"
+          width="220"
+          height="110"
+          alt="Logo de mi proyecto"
+      /></a>
+    </div>
     <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/rutas">Rutas</router-link> |
-    <router-link to="/ciclismo">Ciclismo Colombiano</router-link>
-  </nav>
-</div>
+      <router-link to="/">Home</router-link> |
+      <router-link to="/rutas">Rutas</router-link> |
+      <router-link to="/ciclismo">Ciclismo Colombiano</router-link>
+    </nav>
+  </div>
 </template>
 
 <script>
 export default {
-  name: 'HelloWorld',
+  name: "HelloWorld",
   props: {
-    msg: String
-  }
-}
+    msg: String,
+  },
+};
 </script>
 
 <style scoped>
-
-.containerNav { 
+.containerNav {
   display: flex;
   height: 150px;
-  background:  #f2f2f2;
+  background: #f2f2f2;
   justify-content: space-between;
   align-items: center;
   padding: 0px;
@@ -33,17 +38,16 @@ export default {
   gap: 1rem;
 }
 
-.containerLogo{ 
+.containerLogo {
   align-items: center;
   padding: 0px 0px 0px 30px;
-  
 }
 
 nav a {
   text-decoration: none;
   font-size: 20px;
   font-weight: bold;
-  color: #2A2F35;
+  color: #2a2f35;
   padding-right: 15px;
   padding: 30px 50px 0 0;
   flex-basis: 20rem;
@@ -51,11 +55,10 @@ nav a {
 }
 
 nav a.router-link-exact-active {
-  color: #FFC200;
+  color: #ffc200;
 }
 
-nav a:hover{
-  color:#FFC200;
+nav a:hover {
+  color: #ffc200;
 }
-
 </style>

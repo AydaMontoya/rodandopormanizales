@@ -1,18 +1,17 @@
 <template>
-<home/>
-<descripcion/>
+  <home />
+  <descripcion />
 </template>
 
-<script >
-import descripcion from '@/components/ComponentDescripcion.vue';
-import home from '@/components/ComponentHome.vue';
+<script>
+import descripcion from "@/components/ComponentDescripcion.vue";
+import home from "@/components/ComponentHome.vue";
 
 export default {
-  name: 'HomeView',
+  name: "HomeView",
   components: {
     descripcion,
-    home
-},
-}
+    home,
+  },
+};
 </script>
-
