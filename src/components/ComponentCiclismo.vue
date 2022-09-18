@@ -1,4 +1,7 @@
 <template>
+<div class="titulo">
+  <h3>Elige la dificultad a la que deseas enfrentarte</h3>
+</div>
     <div class="ciclistas">
 <div class="container">
     <input type="radio" name="dot" id="one">
@@ -132,6 +135,12 @@
   position: relative;
 }
 
+.titulo{
+    color: #0C233E;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
 .container{
   max-width: 950px;
   width: 100%;
@@ -179,7 +188,7 @@
   border-radius: 50%;
   padding: 3px;
   background: #FFC200;
-  margin-bottom: 14px;
+  margin-bottom: 10px;
 }
 .card .content .img img{
   height: 100%;

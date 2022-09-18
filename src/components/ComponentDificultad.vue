@@ -12,13 +12,12 @@
             <div class="details">
                 <h2>Bosque Popular<br><span>Muy buena</span></h2>
                 <div class="data">
-                    <h3>345<br><span>Distancia</span></h3>
-                    <h3>34<br><span>Altitud</span></h3>
-                    <h3>345<br><span>Tipo de bicicleta</span></h3>
+                    <h3>11.84 km<br><span>Distancia</span></h3>
+                    <h3>257 m<br><span>Desnivel</span></h3>
+                    <h3>MTB - RUTA<br><span>Tipo de bicicleta</span></h3>
                 </div>
                 <div class="actionBtn">
-                    <button>follow</button>
-                    <button>messaje</button>
+                    <button>Ver mapa</button>
                 </div>
             </div>
         </div>
@@ -36,8 +35,7 @@
                     <h3>345<br><span>Tipo de bicicleta</span></h3>
                 </div>
                 <div class="actionBtn">
-                    <button>follow</button>
-                    <button>messaje</button>
+                    <button>Ver mapa</button>
                 </div>
             </div>
         </div>
@@ -55,8 +53,7 @@
                     <h3>345<br><span>Tipo de bicicleta</span></h3>
                 </div>
                 <div class="actionBtn">
-                    <button>follow</button>
-                    <button>messaje</button>
+                    <button>Ver mapa</button>
                 </div>
             </div>
         </div>
@@ -94,7 +91,7 @@
     display: flex;
     align-items: flex-start; 
     justify-content: space-evenly;
-    gap: 5.2em;
+    gap: 4.2em;
     flex-wrap: wrap;
 }
 
@@ -178,11 +175,11 @@
 .card .content .details .data{
     display: flex;
     justify-content: space-between;
-    margin: 20px 0;
+    margin: 20px 0; /* ojo espacio entre la img y el cont */
 }
 
 .card .content .details .data h3{
-    font-size: 1em;
+    font-size: 0.9em;
     color:#364A61;
     line-height: 1.2em;
     font-weight: 600;
@@ -196,7 +193,7 @@
 
 .card .content .details .actionBtn{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     /* gap: 20px; */
 }
 

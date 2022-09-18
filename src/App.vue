@@ -1,5 +1,5 @@
 <template>
-  <div class="fondo">
+  <div>
 <!--     <NavBar/> -->
     <!-- <router-link to="/">Home</router-link> |
     <router-link to="/about">About</router-link> -->
@@ -31,6 +31,8 @@ export default {
   font-family: 'Nunito', sans-serif;
   background:  #f2f2f2;
   margin: 0%;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 :root{
