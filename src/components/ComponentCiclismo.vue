@@ -1,6 +1,9 @@
 <template>
   <div class="titulo">
-    <h3>Elige la dificultad a la que deseas enfrentarte</h3>
+    <h2>
+      A continuación veras algunos deportistas Colombianos que se han destacado a
+      nivel internacional por su alto rendimiento
+    </h2>
   </div>
   <div class="ciclistas">
     <div class="container">
@@ -15,13 +18,16 @@
               </div>
               <div class="details">
                 <div class="name">Nairo Alexander Quintana Rojas</div>
+                <br />
                 <div class="job">
-                  (Tunja, Boyacá, 4 de febrero de 1990) más conocido como
+                  (Tunja, Boyacá, 4 de febrero de 1990) conocido como
                   “Nairoman”. Corredor en la disciplina de Ruta con perfil de
-                  escalador. Equipo Arkéa Samsic. Ganó el Giro de Italia en 2014
-                  y La Vuelta a España en 2016. En cuanto al Tour de Francia
-                  logró encasillarse en la segunda posición en dos ocasiones
-                  (2013 y 2015)
+                  escalador. Equipo actual (Arkéa Samsic).En el 2012, dio el
+                  gran salto a Europa con el Movistar Team, donde logró obtener
+                  títulos en 2013 como la Vuelta a Burgos y la Vuelta al País
+                  Vasco. Ganó el Giro de Italia en 2014 y La Vuelta a España en
+                  2016. En cuanto al Tour de Francia logró la segunda posición
+                  en dos ocasiones 2013 y 2015.
                 </div>
               </div>
               <div class="media-icons">
@@ -44,15 +50,16 @@
               </div>
               <div class="details">
                 <div class="name">Mariana Pajón Londoño</div>
+                <br />
                 <div class="job">
-                  (Medellín; 10 de octubre de 1991) conocida como "la reina del
+                  (Medellín, 10 de octubre de 1991) conocida como "La reina del
                   BMX". Es una deportista, bicicrosista, ciclista de BMX,
                   medallista de plata y doble medallista de oro olímpica.
-                  Medallista de oro en los Juegos Olímpicos de Río 2016 y Juegos
-                  Olímpicos de Londres 2012, siendo la única deportista
-                  colombiana en conseguir un bicampeonato olímpico. Mariana es
-                  la primera mujer latinoamericana en conseguir dos oros
-                  olímpicos en un deporte individual
+                  Medallista de oro en los Juegos Olímpicos de Río 2016 y
+                  Londres 2012, siendo la única deportista colombiana en
+                  conseguir un bicampeonato olímpico. Mariana es la primera
+                  mujer latinoamericana en obtener dos oros olímpicos en un
+                  deporte individual.
                 </div>
               </div>
               <div class="media-icons">
@@ -75,14 +82,16 @@
               </div>
               <div class="details">
                 <div class="name">Rigoberto Urán Urán</div>
+                <br />
                 <div class="job">
-                  (Urrao, 26 de enero de 1987) conocido como el toro de Urrao.
-                  Corredor en la disciplina de Ruta con perfil de escalador y
-                  contrarrelojista. Equipo EF Education-EasyPost. Sus logros más
-                  destacados como deportista han sido la medalla de plata en los
-                  Juegos Olímpicos de Londres 2012 en la prueba de ciclismo en
-                  ruta, y la segunda posición en el Giro de Italia 2013 y 2014,
-                  al igual que en el Tour de Francia 2017.
+                  (Urrao, 26 de enero de 1987) conocido como "El toro de Urrao".
+                  Es un corredor en la disciplina de Ruta con perfil de
+                  escalador y tambien contrarrelojista. Equipo actual (EF
+                  Education-EasyPost). Sus logros más destacados como deportista
+                  han sido la medalla de plata en los Juegos Olímpicos de
+                  Londres 2012 en la prueba de ciclismo en ruta, y la segunda
+                  posición en el Giro de Italia 2013 y 2014, al igual que en el
+                  Tour de Francia 2017.
                 </div>
               </div>
               <div class="media-icons">
@@ -107,13 +116,16 @@
               </div>
               <div class="details">
                 <div class="name">Egan Arley Bernal Gómez</div>
+                <br />
                 <div class="job">
-                  (Bogotá 13 de enero de 1997) o más conocido como “Escarabajo
-                  de oro”. Corredor en la disciplina de Ruta con perfil de
-                  escalador. Equipo INEOS. En 2019 se convirtió en el primer
-                  latinoamericano en ganar el Tour de Francia, y el ganador más
-                  joven en 110 años (con 22 años), y en 2021 se convirtió en el
-                  segundo colombiano en consagrarse campeón del Giro de Italia
+                  (Bogotá 13 de enero de 1997) conocido como “Escarabajo de
+                  oro”. Corredor en la disciplina de Ruta con perfil de
+                  escalador. Equipo actual (INEOS). En 2019 se convirtió en el
+                  primer latinoamericano en ganar el Tour de Francia, y el
+                  ganador más joven en 110 años (con 22 años), este mismo año
+                  ganó la París-Niza, el Tour de Suiza y el Gran Piemonte. En
+                  2021 se convirtió en el segundo colombiano en consagrarse
+                  campeón del Giro de Italia.
                 </div>
               </div>
               <div class="media-icons">
@@ -136,16 +148,16 @@
               </div>
               <div class="details">
                 <div class="name">María Luisa Calle Williams</div>
+                <br />
                 <div class="job">
                   (Medellín 3 de octubre de 1968). Exciclista Colombiana de
-                  Ciclismo en pista y Ciclismo en ruta. Sus buenas actuaciones
-                  la llevaron a participar de los juegos olímpicos de Atenas en
-                  2004 y otras competencias de alto nivel en el ciclismo de
-                  pista como lo son los mundiales de ciclismo de pista, los
-                  juegos panamericanos, juegos bolivarianos, juegos
-                  sudamericanos y juegos centroamericanos y del caribe.En 2016
-                  después de una exitosa carrera se retiró del deporte con 47
-                  años de edad.
+                  ciclismo en pista y ciclismo en ruta. Participo de los juegos
+                  olímpicos de Atenas en 2004 y otras competencias de alto nivel
+                  en el ciclismo de pista como lo son los mundiales de ciclismo
+                  de pista, los juegos panamericanos, juegos bolivarianos,
+                  juegos sudamericanos y juegos centroamericanos y del caribe.
+                  En 2016 después de una exitosa carrera se retiró del deporte
+                  con 47 años de edad.
                 </div>
               </div>
               <div class="media-icons">
@@ -168,15 +180,16 @@
               </div>
               <div class="details">
                 <div class="name">Luis Alberto Herrera Herrera</div>
+                <br />
                 <div class="job">
-                  (Fusagasugá, Cundinamarca, 4 de mayo de 1961), más conocido
-                  como Lucho Herrera, es un ex ciclista colombiano, profesional
-                  entre 1982 y 1992, durante los cuales consiguió 30 victorias,
-                  siendo la más importante la Vuelta a España 1987. Lucho
-                  Herrera fue el primer ciclista colombiano y latinoamericano en
-                  ganar una de las tres Grandes Vueltas del ciclismo, tras ganar
-                  la Vuelta a España 1987. Fue pionero del ciclismo colombiano
-                  en Europa, y su mayor exponente durante la década de 1980.
+                  (Fusagasugá, Cundinamarca, 4 de mayo de 1961), conocido como
+                  "Lucho Herrera". Exciclista Colombiano, profesional entre 1982
+                  y 1992, durante los cuales consiguió 30 victorias, la más
+                  importante fue la vuelta a España 1987. Fue el primer ciclista
+                  colombiano y latinoamericano en ganar una de las tres Grandes
+                  Vueltas del ciclismo, tras ganar la Vuelta a España 1987. Fue
+                  pionero del ciclismo colombiano en Europa, su mayor exponente
+                  durante la década de 1980.
                 </div>
               </div>
               <div class="media-icons">
@@ -221,8 +234,9 @@ export default {
 .titulo {
   color: #0c233e;
   text-align: center;
-  margin-bottom: 0px;
+  margin-bottom: 0;
 }
+
 
 .container {
   max-width: 950px;

@@ -60,13 +60,18 @@
   </div>
 </template>
 
-<script>
-export default {
-  name: "ComponentDificultad",
-  props: {
-    msg: String,
-  },
-};
+<script setup>
+import { defineProps } from 'vue';
+
+defineProps({
+    imagen: String,
+    title: String,
+    ruta: String,
+    distancia: String,
+    desnivel: String,
+    tipodebicicleta: String
+})
+
 </script>
 
 <style scoped>
