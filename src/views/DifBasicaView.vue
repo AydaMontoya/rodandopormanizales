@@ -3,9 +3,27 @@
     <h1>Escoge tu aventura !!!</h1>
   </div>
   <div class="dificultades">
-  <componentDificultad image="/assets/CerrodeOro.jpg" ruta="Bosque Popular" distancia="11.84 km" desnivel="257 m" tipodebicicleta="MTB-RUTA" />
-  <componentDificultad ruta="Cerro de Oro" distancia="6.4 km" desnivel="142 m" tipodebicicleta="MTB-RUTA"/>
-  <componentDificultad ruta="Chipre" distancia="8.2 km" desnivel="134 m" tipodebicicleta="MTB-RUTA"/>
+    <componentDificultad
+      image="/assets/Bosquepopular.jpg"
+      ruta="Bosque Popular"
+      distancia="11.84 km"
+      desnivel="257 m"
+      tipodebicicleta="MTB-RUTA"
+    />
+    <componentDificultad
+      image="/assets/CerrodeOro.jpg"
+      ruta="Cerro de Oro"
+      distancia="6.4 km"
+      desnivel="142 m"
+      tipodebicicleta="MTB-RUTA"
+    />
+    <componentDificultad
+      image="/assets/Chipre.jpg"
+      ruta="Chipre"
+      distancia="8.2 km"
+      desnivel="134 m"
+      tipodebicicleta="MTB-RUTA"
+    />
   </div>
 </template>
 
@@ -26,7 +44,7 @@ export default {
   text-align: center;
 }
 
-.dificultades{
+.dificultades {
   background: #f2f2f2;
   width: 90%;
   margin: 0 auto;
@@ -39,6 +57,4 @@ export default {
   gap: 4.2em;
   flex-wrap: wrap;
 }
-
 </style>
-
