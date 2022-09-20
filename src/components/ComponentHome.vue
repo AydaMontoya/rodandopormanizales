@@ -37,8 +37,8 @@ export default {
 .vistahome {
   width: 100%;
   height: 100vh;
-  background: url(../assets/imagenP3.jpg);
-  background: url(../assets/imagenP3.jpg);
+  background: url(../assets/imagenP.jpg);
+  background: url(../assets/imagenP.jpg);
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
@@ -52,7 +52,7 @@ export default {
 }
 
 .textoHome {
-  background-color: rgba(1, 4, 9, 0.552);
+  background-color: rgba(8, 34, 66, 0.615);
   padding: 20px 20px 10px 50px;
   text-align: center;
   width: 60%;

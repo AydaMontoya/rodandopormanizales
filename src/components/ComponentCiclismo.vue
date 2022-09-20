@@ -266,10 +266,10 @@ export default {
 
 .main-card .cards .card {
   width: calc(100% / 3 - 10px);
-  background: #fff;
+  background: rgb(248, 246, 246);
   border-radius: 12px;
   padding: 17px 3px;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 5px 12px rgba(0, 0, 0, 0.25);
   transition: all 0.4s ease;
 }
 

@@ -105,13 +105,13 @@ button:hover {
 .card {
   width: 90%;
   margin: 0 auto;
-  padding: 60px 90px;
+  padding: 60px 30px;
   max-width: 1200px;
   min-height: 100vh;
   display: flex;
   align-items: flex-start;
   justify-content: space-evenly;
-  gap: 3.5em;
+  gap: 2.5em;
   flex-wrap: wrap;
 }
 
@@ -120,8 +120,9 @@ button:hover {
   margin: 0%;
   flex-basis: 280px;
   max-width: 450px;
-  background: #e9ecef;
+  background: rgb(248, 246, 246);
   border-radius: 12px;
+  box-shadow: 0 5px 12px rgba(0, 0, 0, 0.25);
 }
 
 .card_content {

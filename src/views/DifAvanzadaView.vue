@@ -1,5 +1,14 @@
 <template>
-  <div class="ciclismoColombiano">
-    <h1>This is an about page</h1>
-  </div>
+  <componentDificultad/>
 </template>
+
+<script>
+import componentDificultad from '@/components/ComponentDificultad.vue'
+
+export default {
+ name: 'HomeView',
+ components: {
+   componentDificultad
+},
+}
+</script>
