@@ -1,25 +1,19 @@
 <template>
   <div>
-    <!--     <NavBar/> -->
-    <!-- <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link> -->
-    <!-- <HelloWorld/> -->
-    <NavBar />
-    <router-view />
-    <ComponentFooter />
+    <NavBar/>
+    <router-view/>
+    <routeFooter />
   </div>
 </template>
 
 <script>
-/* import HelloWorld from '@/components/HelloWorld.vue'; */
-import ComponentFooter from "@/components/ComponentFooter.vue";
-import NavBar from "./components/NavBar.vue";
+import routeFooter from "@/components/organisms/RouteFooter.vue";
+import NavBar from "./components/organisms/NavBar.vue";
 
 export default {
-  name: "HomeView",
+  name: "Home",
   components: {
-    /* HelloWorld, */
-    ComponentFooter,
+    routeFooter,
     NavBar,
   },
 };

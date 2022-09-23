@@ -6,11 +6,11 @@
     <div class="card">
       <div class="card_item">
         <button>
-          <router-link to="/difBasica" class="dificultad">Básica</router-link>
+          <router-link to="/basicDifficulty" class="dificultad">Básica</router-link>
         </button>
         <div class="card_content">
           <figure class="card_picture">
-            <img src="../assets/DifMedia.jpg" alt="" class="card_img" />
+            <img src="@/assets/DifMedia.jpg" alt="" class="card_img" />
             <div class="capa">
               <h3>
                 No importa lo lento que vayas, siempre y cuando no te
@@ -22,13 +22,13 @@
       </div>
       <div class="card_item">
         <button>
-          <router-link to="/difIntermedia" class="dificultad"
+          <router-link to="/IntermediateDifficulty" class="dificultad"
             >Intermedia</router-link
           >
         </button>
         <div class="card_content">
           <figure class="card_picture">
-            <img src="../assets/DifMedia.jpg" alt="" class="card_img" />
+            <img src="@/assets/DifMedia.jpg" alt="" class="card_img" />
             <div class="capa">
               <h3>Que tu bici te lleve donde tu mente soñó</h3>
             </div>
@@ -37,13 +37,13 @@
       </div>
       <div class="card_item">
         <button>
-          <router-link to="/difAvanzada" class="dificultad"
+          <router-link to="/advancedDifficulty" class="dificultad"
             >Avanzada</router-link
           >
         </button>
         <div class="card_content">
           <figure class="card_picture">
-            <img src="../assets/DifAvanzada.jpg" alt="" class="card_img" />
+            <img src="@/assets/DifAvanzada.jpg" alt="" class="card_img" />
             <div class="capa">
               <h3>Que tu meta de hoy sea ganarle a tu mejor excusa</h3>
             </div>
@@ -56,7 +56,7 @@
 
 <script>
 export default {
-  name: "ComponentRutas",
+  name: "RoutesType",
   props: {
     msg: String,
   },

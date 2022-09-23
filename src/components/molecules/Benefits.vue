@@ -3,7 +3,7 @@
     <div class="contenedor beneficios">
       <h1 class="titulo">Beneficios de montar en bicicleta</h1>
       <div class="contenedor-beneficios">
-        <img src="../assets/bici1.jpg" alt="" class="imagen-catedral" />
+        <img src="@/assets/bici1.jpg" alt="" class="imagen-catedral" />
         <ul class="contenido-textos">
           <li>Reduce los niveles de estrés</li>
           <li>Mejora la autoestima</li>
@@ -21,7 +21,7 @@
 
 <script>
 export default {
-  name: "ComponentDescripcion",
+  name: "Benefits",
   props: {
     msg: String,
   },
@@ -72,7 +72,7 @@ li::before {
   display: inline-block;
   width: 40px;
   height: 40px;
-  background-image: url(../assets/icono.jpg);
+  background-image: url(@/assets/icono.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;

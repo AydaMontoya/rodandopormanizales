@@ -37,8 +37,8 @@ export default {
 .vistahome {
   width: 100%;
   height: 100vh;
-  background: url(../assets/imagenP.jpg);
-  background: url(../assets/imagenP.jpg);
+  background: url(@/assets/imagenP.jpg);
+  background: url(@/assets/imagenP.jpg);
   background-size: cover;
   background-attachment: fixed;
   background-position: center;

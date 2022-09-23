@@ -1,36 +1,36 @@
 import { createRouter, createWebHashHistory } from 'vue-router'
-import HomeView from '../views/HomeView.vue'
+import Home from '../views/Home.vue'
 
 const routes = [
   {
     path: '/',
     name: 'home',
-    component: HomeView
+    component: Home
   },
   {
-    path: '/rutas',
-    name: 'rutas',
-    component: () => import(/* webpackChunkName: "about" */ '../views/RutasView.vue')
+    path: '/bikeRoutes',
+    name: 'bikeRoutes',
+    component: () => import(/* webpackChunkName: "about" */ '../views/BikeRoutes.vue')
   },
   {
-    path: '/ciclismo',
-    name: 'ciclismo',
-    component: () => import(/* webpackChunkName: "ciclismo" */ '../views/CiclismoView.vue')
+    path: '/basicDifficulty',
+    name: 'basicDifficulty',
+    component: () => import(/* webpackChunkName: "diBasica" */ '../views/BasicDifficulty.vue')
   },
   {
-    path: '/difBasica',
-    name: 'difBasica',
-    component: () => import(/* webpackChunkName: "diBasica" */ '../views/DifBasicaView.vue')
+    path: '/intermediateDifficulty',
+    name: 'intermediateDifficulty',
+    component: () => import(/* webpackChunkName: "difIntermedia" */ '../views/IntermediateDifficulty.vue')
   },
   {
-    path: '/difIntermedia',
-    name: 'difIntermedia',
-    component: () => import(/* webpackChunkName: "difIntermedia" */ '../views/DifIntermediaView.vue')
+    path: '/advancedDifficulty',
+    name: 'advancedDifficulty',
+    component: () => import(/* webpackChunkName: "difAvanzada" */ '../views/AdvancedDifficulty.vue')
   },
   {
-    path: '/difAvanzada',
-    name: 'difAvanzada',
-    component: () => import(/* webpackChunkName: "difAvanzada" */ '../views/DifAvanzadaView.vue')
+    path: '/colombianCycling',
+    name: 'colombianCycling',
+    component: () => import(/* webpackChunkName: "difAvanzada" */ '../views/ColombianCycling.vue')
   }
 ]
 

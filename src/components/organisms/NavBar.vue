@@ -2,20 +2,20 @@
   <div class="header">
     <div class="logo-header">
       <a href=""
-        ><img src="../assets/LogoOficial1.png" alt="Logo de mi proyecto"
+        ><img src="@/assets/LogoOficial1.png" alt="Logo de mi proyecto"
       /></a>
     </div>
     <nav class="nav-menu">
       <input type="checkbox" id="check" />
       <label for="check" class="checkbtn">
         <i class="menu-icon"
-          ><img src="../assets/hamburguesa.png" alt="icono hamburguesa"
+          ><img src="@/assets/hamburguesa.png" alt="icono hamburguesa"
         /></i>
       </label>
       <ul>
         <li><router-link to="/">Home</router-link></li>
-        <li><router-link to="/rutas">Rutas</router-link></li>
-        <li><router-link to="/ciclismo">Ciclismo Colombiano</router-link></li>
+        <li><router-link to="/bikeRoutes">Rutas</router-link></li>
+        <li><router-link to="/colombianCycling">Ciclismo Colombiano</router-link></li>
         <li><a href="#">Registrarse</a></li>
       </ul>
     </nav>

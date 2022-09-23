@@ -14,7 +14,7 @@
           <div class="card">
             <div class="content">
               <div class="img">
-                <img src="../assets/NairoQuintana.jpg" alt="Nairo Quintana" />
+                <img src="@/assets/NairoQuintana.jpg" alt="Nairo Quintana" />
               </div>
               <div class="details">
                 <div class="name">Nairo Alexander Quintana Rojas</div>
@@ -37,7 +37,7 @@
                 >
                   <img
                     class="logoInstagram"
-                    src="../assets/Intagram.png"
+                    src="@/assets/Intagram.png"
                     alt="logoInstagram"
                 /></a>
               </div>
@@ -46,7 +46,7 @@
           <div class="card">
             <div class="content">
               <div class="img">
-                <img src="../assets/MarianaPajon.jpg" alt="" />
+                <img src="@/assets/MarianaPajon.jpg" alt="" />
               </div>
               <div class="details">
                 <div class="name">Mariana Pajón Londoño</div>
@@ -69,7 +69,7 @@
                 >
                   <img
                     class="logoInstagram"
-                    src="../assets/Intagram.png"
+                    src="@/assets/Intagram.png"
                     alt="logoInstagram"
                 /></a>
               </div>
@@ -78,7 +78,7 @@
           <div class="card">
             <div class="content">
               <div class="img">
-                <img src="../assets/RigoUran.jpg" alt="" />
+                <img src="@/assets/RigoUran.jpg" alt="" />
               </div>
               <div class="details">
                 <div class="name">Rigoberto Urán Urán</div>
@@ -101,7 +101,7 @@
                 >
                   <img
                     class="logoInstagram"
-                    src="../assets/Intagram.png"
+                    src="@/assets/Intagram.png"
                     alt="logoInstagram"
                 /></a>
               </div>
@@ -112,7 +112,7 @@
           <div class="card">
             <div class="content">
               <div class="img">
-                <img src="../assets/EganB.jpg" alt="" />
+                <img src="@/assets/EganB.jpg" alt="" />
               </div>
               <div class="details">
                 <div class="name">Egan Arley Bernal Gómez</div>
@@ -135,7 +135,7 @@
                 >
                   <img
                     class="logoInstagram"
-                    src="../assets/Intagram.png"
+                    src="@/assets/Intagram.png"
                     alt="logoInstagram"
                 /></a>
               </div>
@@ -144,7 +144,7 @@
           <div class="card">
             <div class="content">
               <div class="img">
-                <img src="../assets/mariaLuisa.jpg" alt="" />
+                <img src="@/assets/mariaLuisa.jpg" alt="" />
               </div>
               <div class="details">
                 <div class="name">María Luisa Calle Williams</div>
@@ -167,7 +167,7 @@
                 >
                   <img
                     class="logoInstagram"
-                    src="../assets/Intagram.png"
+                    src="@/assets/Intagram.png"
                     alt="logoInstagram"
                 /></a>
               </div>
@@ -176,7 +176,7 @@
           <div class="card">
             <div class="content">
               <div class="img">
-                <img src="../assets/Lucho.jpg" alt="" />
+                <img src="@/assets/Lucho.jpg" alt="" />
               </div>
               <div class="details">
                 <div class="name">Luis Alberto Herrera Herrera</div>
@@ -196,7 +196,7 @@
                 <a href="#">
                   <img
                     class="logoInstagram"
-                    src="../assets/Intagram.png"
+                    src="@/assets/Intagram.png"
                     alt="logoInstagram"
                 /></a>
               </div>
@@ -214,7 +214,7 @@
 
 <script>
 export default {
-  name: "ComponentCiclismo",
+  name: "cycling",
   props: {
     msg: String,
   },
