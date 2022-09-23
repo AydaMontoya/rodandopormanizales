@@ -1,6 +1,6 @@
 <template>
-  <div class="titulo">
-    <h1>Escoge tu aventura !!!</h1>
+  <div>
+    <mainTitle title="Elige el nuevo reto"/>
   </div>
   <div class="dificultades">
     <componentDificultad
@@ -29,20 +29,18 @@
 
 <script>
 import componentDificultad from "@/components/ComponentDificultad.vue";
+import mainTitle from "@/components/Atoms/MainTitle.vue";
 
 export default {
   name: "HomeView",
   components: {
     componentDificultad,
+    mainTitle
   },
 };
 </script>
 
-<style>
-.titulo {
-  color: #0c233e;
-  text-align: center;
-}
+<style scoped>
 
 .dificultades {
   background: #f2f2f2;

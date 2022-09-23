@@ -1,6 +1,6 @@
 <template>
-  <div class="titulo">
-    <h1>Escoge tu aventura !!!</h1>
+  <div>
+    <mainTitle title="Escoge tu aventura"/>
   </div>
   <div class="dificultades">
     <componentDificultad
@@ -29,12 +29,14 @@
 
 <script>
 import componentDificultad from "@/components/ComponentDificultad.vue";
+import mainTitle from "@/components/Atoms/MainTitle.vue";
 
 export default {
   name: "HomeView",
   components: {
     componentDificultad,
-  },
+    mainTitle
+},
 };
 </script>
 
