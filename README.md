@@ -1,10 +1,8 @@
 # Nombre
-![](https://i.postimg.cc/SNkn3kXS/LogoRPM.png)
+![](https://i.postimg.cc/g2jC4tWz/LogoRPM.png)
 
 ## Descripción 	📝
-El ciclismo es una experiencia única y especial que te lleva a conocer lugares increíbles. Manizales tiene un paisaje
-maravilloso y es perfecto para explorar en bicicleta, aqui encontraras las mejores rutas para salir a rodar en diferentes
-niveles de dificultad, contiene informacion de la distancia y desnivel para que salgas preparado.
+El ciclismo es una experiencia única y especial que te lleva a conocer lugares increíbles. Manizales tiene un paisaje maravilloso y es perfecto para explorar en bicicleta, aqui encontraras las mejores rutas para salir a rodar en diferentes niveles de dificultad, contiene informacion de la distancia y desnivel para que salgas preparado.
 
 ## Demo  🚲 🚴
 Si quieres ver la Demo de este proyecto puedes desplegar [Rodando por Manizales](https://rodandopormanizales.vercel.app/#/)
