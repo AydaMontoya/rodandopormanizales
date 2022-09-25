@@ -1,10 +1,4 @@
 <template>
-  <div class="titulo">
-    <h2>
-      A continuación veras algunos deportistas Colombianos que se han destacado a
-      nivel internacional por su alto rendimiento
-    </h2>
-  </div>
   <div class="ciclistas">
     <div class="container">
       <input type="radio" name="dot" id="one" />

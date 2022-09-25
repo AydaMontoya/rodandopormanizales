@@ -6,16 +6,16 @@
       /></a>
     </div>
     <nav class="nav-menu">
-      <input type="checkbox" id="check" />
       <label for="check" class="checkbtn">
         <i class="menu-icon"
           ><img src="@/assets/hamburguesa.png" alt="icono hamburguesa"
         /></i>
       </label>
+      <input name="check" type="checkbox" id="check" />
       <ul>
-        <li><router-link to="/">Home</router-link></li>
-        <li><router-link to="/bikeRoutes">Rutas</router-link></li>
-        <li><router-link to="/colombianCycling">Ciclismo Colombiano</router-link></li>
+        <li><router-link :onclick="ejemplo" to="/">Home</router-link></li>
+        <li><router-link :onclick="ejemplo" to="/bikeRoutes">Rutas</router-link></li>
+        <li><router-link :onclick="ejemplo" to="/colombianCycling">Ciclismo Colombiano</router-link></li>
         <li><a href="#">Registrarse</a></li>
       </ul>
     </nav>
@@ -27,6 +27,11 @@ export default {
   name: "NavBar",
   props: {
     msg: String,
+  },
+  methods: {
+    ejemplo: function () {
+      document.getElementById("check").click();
+    },
   },
 };
 </script>
@@ -100,9 +105,14 @@ li {
     display: block;
   }
 
+  /*   #check:checked + .header{
+    position: absolute;
+    width: 100%;
+  } */
+
   .menu-icon {
     display: block;
-    position: fixed;
+    position: absolute;
     top: 20px;
     right: 20px;
     cursor: pointer;
@@ -110,19 +120,21 @@ li {
 
   .nav-menu ul {
     display: block;
-    position: fixed;
+    position: absolute;
+    overflow-y: hidden;
+    z-index: 1000;
     top: 95px;
     left: -100%;
     background: #f2f2f2;
     width: 100%;
-    height: 100vh;
     right: 0;
+    /* height: 100%; */
   }
 
   .nav-menu ul li {
     padding: 3px;
     display: flex;
-    justify-content: right;
+    justify-content: center;
     margin: 0;
   }
 

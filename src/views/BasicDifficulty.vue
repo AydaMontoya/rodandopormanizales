@@ -40,11 +40,7 @@
   };
   </script>
   
-  <style>
-  .titulo {
-    color: #0c233e;
-    text-align: center;
-  }
+  <style scoped>
   
   .dificultades {
     background: #f2f2f2;

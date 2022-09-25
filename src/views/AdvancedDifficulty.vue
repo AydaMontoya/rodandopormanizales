@@ -2,6 +2,7 @@
     <div>
       <mainTitle title="Selecciona tu aventura"/>
     </div>
+
     <div class="dificultades">
       <routeDifficulty
         image="/assets/Letras.jpg"
@@ -40,11 +41,7 @@
   };
   </script>
   
-  <style>
-  .titulo {
-    color: #0c233e;
-    text-align: center;
-  }
+  <style scoped>
   
   .dificultades {
     background: #f2f2f2;

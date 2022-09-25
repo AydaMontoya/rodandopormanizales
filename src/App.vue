@@ -39,4 +39,5 @@ export default {
   --espacios: 10px;
   --espacios-contenido: 45px;
 }
+
 </style>
