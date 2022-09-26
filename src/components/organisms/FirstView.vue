@@ -1,16 +1,22 @@
 <template>
-  <div class="vistahome">
-    <div class="textoHome">
-      <h1>RODANDO POR MANIZALES</h1>
-      <h2>
-        Aqui encontraras las mejores rutas con la informacion necesaria para
-        salir a rodar en compañia de tus amigos, seremos tu mejor aliado para
-        que puedas disfrutar los maravillosos paisajes caldenses.
-      </h2>
+  <div class="hero">
+    <figure class="hero_picture">
+      <img
+        src="@/assets/img3dHome.png" alt="" class="hero_img"/>
+    </figure>
+
+    <div class="hero_texts">
+      <h1 class="hero_title">Rodando por Manizales</h1>
+      <p class="hero_paragraph">
+        Aqui encontraras las mejores rutas con su nivel de dificultad y
+        distancia, para que salgas a rodar con tus amigos, vivas encantadoras
+        aventuras y explores el maravilloso paisaje que tiene manizales para ti.
+      </p>
     </div>
-    <div class="wave" style="height: 150px; overflow: hidden">
+
+<!--     <div class="wave" style="height: 50px; overflow: hidden">
       <svg
-        viewBox="0 0 500 150"
+        viewBox="0 0 500 100"
         preserveAspectRatio="none"
         style="height: 100%; width: 100%"
       >
@@ -19,7 +25,7 @@
           style="stroke: none; fill: #f2f2f2"
         ></path>
       </svg>
-    </div>
+    </div> -->
   </div>
   <descripcion />
 </template>
@@ -34,34 +40,81 @@ export default {
 </script>
 
 <style scope>
-.vistahome {
-  width: 100%;
-  height: 100vh;
-  background: url(@/assets/imagenP.jpg);
-  background: url(@/assets/imagenP.jpg);
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-  font-size: 13px;
-  opacity: 0.9;
-  color: #fff;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+/*     outline: 1px solid rebeccapurple; */
 }
 
-.textoHome {
-  background-color: rgba(8, 34, 66, 0.615);
-  padding: 20px 20px 10px 50px;
-  text-align: center;
-  width: 60%;
-  border-radius: 8px;
+.hero{
+    width: 100%;
+    height: 70vh;
+    width: 100%;
+/*     margin: 0 auto; */
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background:  #0c233e;
 }
 
+.hero_picture{
+    margin-bottom: 1em;
+}
+
+.hero_img{
+    display: block;
+    width: 380px;
+    max-width: 300px;
+    margin: 0 auto;
+    animation: movimiento 1.9s linear infinite;
+}
+
+.hero_texts{
+    flex-basis: 50%;
+    color: aliceblue;
+}
+
+.hero_paragraph{
+    line-height: 1.5;
+    font-weight: 400;
+    padding: 7px 30px 0px 0px ;
+/*     font-size: 20px; */
+}
+
+@media screen and (min-width:850px){
+    .hero{
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .hero_picture{
+        flex-grow: 1;
+    }
+
+    .hero_img{
+        max-width: none;
+    }
+    
+}
+
+@keyframes movimiento{
+    0%{
+        transform: translateX(0);
+    }
+    50%{
+        transform: translateX(20px);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+/* 
 .wave {
   position: absolute;
   bottom: 0;
   width: 100%;
-}
+} */
 </style>

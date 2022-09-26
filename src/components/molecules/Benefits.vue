@@ -29,8 +29,9 @@ export default {
 </script>
 
 <style scoped>
+  
 .beneficios {
-  padding: 5px 0 60px 0;
+  padding: 5px 0 20px 0;
 }
 
 .contenedor-beneficios {
@@ -41,7 +42,8 @@ export default {
 .titulo {
   color: #0c233e;
   text-align: center;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
+  padding: 20px 0px 30px 0px;;
 }
 
 .imagen-catedral {

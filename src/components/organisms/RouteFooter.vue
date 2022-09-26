@@ -1,15 +1,17 @@
 <template>
   <div>
     <footer>
-      <h2 class="titulo-final">
+      <div class="footer-center">
+      <h2 class="titulo-final"><img class="bike-love" src="@/assets/footer2.png" alt="gitlogo"/>
         &copy; Creado por | Ayda Montoya
         <a href="https://github.com/AydaMontoya" target="_blanck">
           <img
             class="git-logo"
-            src="https://cdn-icons-png.flaticon.com/512/25/25231.png"
+            src="@/assets/github2.png"
             alt="gitlogo"
         /></a>
       </h2>
+    </div>
     </footer>
   </div>
 </template>
@@ -24,24 +26,38 @@ export default {
 </script>
 
 <style>
+
 footer {
-  background: #364a61;
-  padding: 10px 0 10px 0;
+  background:#1A2849;;
   overflow: hidden;
   flex-wrap: wrap;
   gap: 1rem;
 }
 
+.footer-center{
+  display: flex;
+  justify-content: space-evenly; 
+
+}
 .titulo-final {
   text-align: center;
   font-size: 20px;
   margin: auto;
   color: #f9f4f4;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
 }
 
 .git-logo {
   width: 30px;
   margin-left: 4px;
+  border-radius: 70%;
+}
+
+.bike-love{
+  width: 150px;
 }
 
 @media screen and (max-width: 900px) {
