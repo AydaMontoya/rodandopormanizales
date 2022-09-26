@@ -1,54 +1,35 @@
 <template>
-  <div class="content">
-    <div class="titulo">
-      <h1>Elige la dificultad a la que deseas enfrentarte</h1>
-    </div>
+  <div class="container">
     <div class="card">
-      <div class="card_item">
+      <img src="@/assets/manizales8.jpg">
+        <p>La vida es como montar en bicicleta, para mantener el equilibrio hay que seguir pedaleando.<br>"Albert Einstein"</p>
+        <div class="actionBtn">
         <button>
-          <router-link to="/basicDifficulty" class="dificultad">Básica</router-link>
+          <router-link to="/basicDifficulty"
+            >Basica</router-link>
         </button>
-        <div class="card_content">
-          <figure class="card_picture">
-            <img src="@/assets/DifMedia.jpg" alt="" class="card_img" />
-            <div class="capa">
-              <h3>
-                No importa lo lento que vayas, siempre y cuando no te
-                detengas!!!
-              </h3>
-            </div>
-          </figure>
-        </div>
       </div>
-      <div class="card_item">
+    </div>
+
+    <div class="card">
+      <img src="@/assets/Manizales5.jpg">
+      <p>Montar en bicicleta es la mejor droga antidepresiva y solo tiene buenos efectos secundarios.<br> "Gunnar Rempel"</p>
+      <div class="actionBtn">
         <button>
-          <router-link to="/IntermediateDifficulty" class="dificultad"
-            >Intermedia</router-link
-          >
+          <router-link to="/intermediateDifficulty"
+            >Intermedia</router-link>
         </button>
-        <div class="card_content">
-          <figure class="card_picture">
-            <img src="@/assets/DifMedia.jpg" alt="" class="card_img" />
-            <div class="capa">
-              <h3>Que tu bici te lleve donde tu mente soñó</h3>
-            </div>
-          </figure>
-        </div>
       </div>
-      <div class="card_item">
+    </div>
+
+    <div class="card">
+      <img src="@/assets/manizales4.jpg" alt="" />
+      <p>Al igual que los perros, las bicicletas son catalizadores sociales que atraen a una categoría superior de personas. <br> "Chip Brown"</p>
+      <div class="actionBtn">
         <button>
-          <router-link to="/advancedDifficulty" class="dificultad"
-            >Avanzada</router-link
-          >
+          <router-link to="/advancedDifficulty"
+            >Avanzada</router-link>
         </button>
-        <div class="card_content">
-          <figure class="card_picture">
-            <img src="@/assets/DifAvanzada.jpg" alt="" class="card_img" />
-            <div class="capa">
-              <h3>Que tu meta de hoy sea ganarle a tu mejor excusa</h3>
-            </div>
-          </figure>
-        </div>
       </div>
     </div>
   </div>
@@ -70,118 +51,67 @@ export default {
   box-sizing: border-box;
 }
 
-.titulo {
-  color: #0c233e;
-  text-align: center;
-  margin-bottom: 0px;
-}
-
-.dificultad {
-  text-decoration: none;
-  color: #2a2f35;
-  font-weight: bold;
-  font-size: 20px;
-}
-
-button {
-  background-color: #ffc200;
-  border: none;
-  color: #2a2f35;
-  padding: 16px 32px;
-  text-align: center;
-  font-size: 16px;
-  margin: 40px 60px;
-  opacity: 1;
-  transition: 0.3s;
-  border-radius: 5px;
-  flex-grow: 1;
-  width: 160px;
-  height: 50px;
-}
-button:hover {
-  opacity: 0.6;
-}
-
-.card {
-  width: 90%;
-  margin: 0 auto;
-  padding: 60px 30px;
-  max-width: 1200px;
-  min-height: 100vh;
-  display: flex;
-  align-items: flex-start;
-  justify-content: space-evenly;
-  gap: 2.5em;
-  flex-wrap: wrap;
-}
-
-.card_item {
-  padding: 0px 0px 0px 0px;
-  margin: 0%;
-  flex-basis: 280px;
-  max-width: 450px;
-  background: rgb(248, 246, 246);
-  border-radius: 12px;
-  box-shadow: 0 5px 12px rgba(0, 0, 0, 0.25);
-}
-
-.card_content {
-  width: 90%;
-  margin: 0 auto;
-}
-/* card_picture card_img capa */
-.card_picture {
+.container {
   width: 100%;
-  margin: 0 auto;
-  position: relative;
-  bottom: 0.5em;
+  max-width: 1200px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+}
+
+.container .card {
+  width: 260px;
+  height: 430px;
+  border-radius: 8px;
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.25);
   overflow: hidden;
-  border-radius: 6px;
-  box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.5);
+  margin: 20px;
+  text-align: center;
+  transition: all 0.25s;
+}
+
+.container .card:hover {
+  transform: translateY(-15px);
+  box-shadow: 0 12px 16px rgba(0, 0, 0, 0.25);
+}
+
+.container .card img {
+  width: 260px;
+  height: 260px;
+}
+
+.container .card p {
+  padding: 2px 1rem;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.container .card a {
+  color: #2a2f35;
+  font-weight: 500;
+  text-decoration: none;
+  padding: 0px 3em;
+}
+
+.container .card .actionBtn {
+  display: flex;
+  justify-content: center;
+  padding: 7px;
+  font-weight: bold;
+  /* gap: 20px; */
+}
+
+.container .card .actionBtn button {
+  padding: 10px 0px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  font-size: 1em;
+  font-weight: 500;
+  background: #ffc200;
+  color: #0c233e;
   cursor: pointer;
 }
 
-.card_img {
-  width: 100%;
-  height: 100%;
-  transition: all 500ms ease-out;
-}
-
-.card_picture .capa {
-  position: absolute;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(45, 70, 75, 0.6);
-  transition: all 500ms ease-out;
-  opacity: 0;
-  visibility: hidden;
-  text-align: center;
-}
-
-.card_picture:hover > .capa {
-  opacity: 1;
-  visibility: visible;
-}
-
-.card_picture:hover > .capa h3 {
-  margin-top: 130px;
-  margin-bottom: 15px;
-}
-
-.card_picture:hover > img {
-  transform: scale(1.3);
-}
-
-.card_picture .capa h3 {
-  color: #e9ecef;
-  font-weight: 400px;
-  margin-bottom: 120px;
-  transition: all 500ms ease-out;
-  margin-top: 30px;
-}
-
-.card_title {
-  margin-bottom: 1em;
-}
 </style>
