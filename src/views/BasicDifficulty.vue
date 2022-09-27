@@ -29,7 +29,7 @@
   
   <script>
   import routeDifficulty from "@/components/molecules/RouteDifficulty.vue";
-  import mainTitle from "@/components/atoms/MainTitle.vue";
+  import mainTitle from "@/components/atomos/MainTitle.vue";
   
   export default {
     name: "basicDifficulty",

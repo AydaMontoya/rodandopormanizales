@@ -1,6 +1,6 @@
 <template>
   <div class="title">
-    <h1>{{ title }}</h1>
+    <h1>{{ title }} <br> {{ subtitle }}</h1>
   </div>
 </template>
 
@@ -9,6 +9,7 @@ import { defineProps } from "vue";
 
 defineProps({
   title: String,
+  subtitle: String,
 });
 </script>
 

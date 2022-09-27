@@ -7,7 +7,7 @@
 
 <script>
 import routesType from "@/components/organisms/RoutesType.vue";
-import mainTitle from "@/components/atoms/MainTitle.vue";
+import mainTitle from "@/components/atomos/MainTitle.vue";
 
 export default {
   name: "bikeRoutes",

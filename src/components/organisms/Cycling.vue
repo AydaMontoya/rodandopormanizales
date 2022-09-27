@@ -236,7 +236,7 @@ export default {
   max-width: 950px;
   width: 100%;
   overflow: hidden;
-  padding: 80px 0;
+  padding: 30px 0;
 }
 
 .container .main-card {
