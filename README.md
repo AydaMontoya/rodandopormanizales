@@ -1,4 +1,4 @@
-<!-- # Nombre
+# Nombre
 ![](https://i.postimg.cc/g2jC4tWz/LogoRPM.png)
 
 ## Descripción 	📝
@@ -26,4 +26,3 @@ Gracias a [Prospercity](https://www.prospercity.co/) por todo el apoyo y por bri
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
- -->
