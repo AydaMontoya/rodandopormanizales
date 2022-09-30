@@ -15,6 +15,7 @@
       <ul>
         <li><router-link :onclick="ejemplo" to="/">Home</router-link></li>
         <li><router-link :onclick="ejemplo" to="/bikeRoutes">Rutas</router-link></li>
+        <li><router-link :onclick="ejemplo" to="/weather">Valida el clima</router-link></li>
         <li><router-link :onclick="ejemplo" to="/colombianCycling">Ciclismo Colombiano</router-link></li>
         <li><a href="#">Registrarse</a></li>
       </ul>
@@ -100,7 +101,7 @@ li {
   display: none;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 896px) {
   .checkbtn {
     display: block;
   }

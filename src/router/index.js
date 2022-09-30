@@ -31,6 +31,11 @@ const routes = [
     path: '/colombianCycling',
     name: 'colombianCycling',
     component: () => import(/* webpackChunkName: "difAvanzada" */ '../views/ColombianCycling.vue')
+  },
+  {
+    path: '/weather',
+    name: 'weather',
+    component: () => import(/* webpackChunkName: "difAvanzada" */ '../views/Weather.vue')
   }
 ]
 
