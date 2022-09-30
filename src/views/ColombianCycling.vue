@@ -1,5 +1,5 @@
 <template>
-  <mainTitle title="Colombia tiene grandes referentes en el ciclismo internacional" subtitle="a continuación veremos la algunos de ellos"/>
+  <mainTitle title="Colombia tiene grandes referentes en el ciclismo internacional" subtitle="a continuación veremos algunos de ellos"/>
   <cycling />
 </template>
 

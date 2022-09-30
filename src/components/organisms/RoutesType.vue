@@ -97,13 +97,13 @@ export default {
 .container .card .actionBtn {
   display: flex;
   justify-content: center;
-  padding: 7px;
+  padding: 4px;
   font-weight: bold;
   /* gap: 20px; */
 }
 
 .container .card .actionBtn button {
-  padding: 10px 0px;
+  padding: 09px 0px;
   border-radius: 5px;
   border: none;
   outline: none;

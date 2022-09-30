@@ -9,6 +9,7 @@
         distancia="11.84 km"
         desnivel="257 m"
         tipodebicicleta="MTB-RUTA"
+        mapa="https://www.google.com/maps/d/u/0/edit?mid=1_T3Akwtwu_5dQkL_jbd9CjrDFdSqlJc&ll=5.043807640211721%2C-75.47479647671528&z=15"
       />
       <routeDifficulty
         image="/assets/CerrodeOro.jpg"
