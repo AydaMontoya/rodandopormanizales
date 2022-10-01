@@ -36,6 +36,11 @@ const routes = [
     path: '/weather',
     name: 'weather',
     component: () => import(/* webpackChunkName: "difAvanzada" */ '../views/Weather.vue')
+  },
+  {
+    path: '/login',
+    name: 'login',
+    component: () => import(/* webpackChunkName: "difAvanzada" */ '../views/Login.vue')
   }
 ]
 

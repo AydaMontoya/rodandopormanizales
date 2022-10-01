@@ -1,4 +1,4 @@
-import axios from 'axios';
+/* import axios from 'axios';
 import crypto from "crypto";
 import { KEY, ENDPOINT } from "@/configs/marvelapp";
 
@@ -18,5 +18,5 @@ export const characterClient = axios.create({
 
 export const comicClient = axios.create({
     baseURL: `${ENDPOINT.COMIC}`,
-});
+}); */
 

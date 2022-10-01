@@ -17,7 +17,7 @@
         <li><router-link :onclick="ejemplo" to="/bikeRoutes">Rutas</router-link></li>
         <li><router-link :onclick="ejemplo" to="/weather">Valida el clima</router-link></li>
         <li><router-link :onclick="ejemplo" to="/colombianCycling">Ciclismo Colombiano</router-link></li>
-        <li><a href="#">Registrarse</a></li>
+        <li><router-link :onclick="ejemplo" to="/login">Registrase</router-link></li>
       </ul>
     </nav>
   </div>

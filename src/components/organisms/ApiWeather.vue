@@ -1,7 +1,7 @@
 <template>
     <div class="video-container">
       <div class="video-item video-1">
-        <h3 class="subtitle">Comsumo de una API general</h3>
+        <h3 class="subtitle">Revisa el clima antes de salir a Rodar</h3>
         <hr />
         <p>
           Trae los datos desde la API
@@ -15,7 +15,7 @@
     </div>
   </template>
 
-<!-- <script>
+<script>
     import axios from 'axios';
     
     export default {
@@ -38,4 +38,4 @@
         },
       },
     };
-    </script> -->
+    </script>
