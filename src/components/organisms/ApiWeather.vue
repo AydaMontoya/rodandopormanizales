@@ -28,14 +28,10 @@
       methods: {
         mounted() {
           axios
-            .get('https://api.coindesk.com/v1/bpi/currentprice.json')
-            .then((response) => { this.info = response; });
-        },
-        mounted_format() {
-          axios
-            .get('https://api.coindesk.com/v1/bpi/currentprice.json')
-            .then((response) => { this.info = response.data.bpi; });
-        },
+            .get('https://api.openweathermap.org/data/2.5/weather?lat=44.34&lon=10.99&appid=5f3e2ffb975979235a637c386a62fb9a')
+            .then((response) => { this.info = response.data.weather });
+          console.log(this.info[0])
+          }
       },
     };
     </script>
