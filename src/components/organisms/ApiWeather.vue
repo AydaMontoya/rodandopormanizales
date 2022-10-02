@@ -8,11 +8,11 @@
         --> Click aquí para traer información
       </button>
       <div id="app">
+        <h1>{{ciudad}}</h1>
         {{ clima }}
-      </div>
-      <p>{{temperatura_maxima}} temperatura</p>
-      <h1>{{ciudad}}</h1>
+      <p>{{temperaturaCelcius}}</p>
     </div>
+  </div>
   </div>
 </template>
 
@@ -26,6 +26,7 @@ export default {
       info: null,
       clima: null,
       temperatura_maxima:null,
+      temperaturaCelcius: null,
       ciudad:null
     };
   },
@@ -33,16 +34,17 @@ export default {
     weather() {
       axios
         .get(
-          "https://api.openweathermap.org/data/2.5/weather?lat=44.34&lon=10.99&appid=5f3e2ffb975979235a637c386a62fb9a"
+          "https://api.openweathermap.org/data/2.5/weather?lat=5.06&lon=-75.51&appid=5f3e2ffb975979235a637c386a62fb9a"
         )
         .then((response) => {
           this.info = response.data.weather;
+          this.ciudad=response.data.name;
           this.clima = this.info[0].description;
           this.temperatura_maxima = response.data.main.temp_max;
-          this.ciudad=response.data.name;
+          this.temperaturaCelcius = parseFloat(this.temperatura_maxima);
+          this.temperaturaCelcius = (this.temperaturaCelcius-273.15).toFixed(2);
         })
         ;
-
     },
   },
 };
