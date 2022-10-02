@@ -57,7 +57,7 @@ footer {
 }
 
 .bike-love{
-  width: 150px;
+  width: 140px;
 }
 
 @media screen and (max-width: 900px) {
