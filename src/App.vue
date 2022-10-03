@@ -32,7 +32,7 @@ export default {
   --color1: #ffc200;
   --color2: #2a2f35;
   --color3: #0c233e;
-  --color3: #364a61;
+  --color4: #364a61;
   --fondo: #f2f2f2;
   --titulos: 33px;
   --margenes: 60px;

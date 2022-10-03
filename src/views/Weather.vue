@@ -1,14 +1,15 @@
 <template>
-    <apiweather/>
-</template>
+    <apiWeather/>
+  </template>
   
   <script>
-  import apiweather from "@/components/organisms/ApiWeather.vue";
+  import apiWeather from "@/components/organisms/ApiWeather.vue";
   
   export default {
-    name: "Weather",
+    name: "Clima",
     components: {
-        apiweather
+      apiWeather,
     },
   };
+
   </script>
