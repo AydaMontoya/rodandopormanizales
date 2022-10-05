@@ -117,8 +117,8 @@
   position: absolute;
   height: 100%;
   width: 100%;
-  /* background: #ffc200; */
-  opacity: 0.5;
+  /* background: #5e5e5a; */
+  opacity: 0.4;
   z-index: 20;
 }
 
