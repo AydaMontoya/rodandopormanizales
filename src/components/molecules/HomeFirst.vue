@@ -13,7 +13,7 @@
         <div class="container__cover">
           <div class="container__info">
             <h1>RODANDO POR</h1>
-            <h2>MANIZALES</h2>
+            <h2>MANIZALES caldas</h2>
             <p>
               Aqui encontraras las mejores rutas con su nivel de dificultad y
               distancia, para que salgas a rodar con tus amigos, vivas
@@ -32,6 +32,7 @@
 </template>
 
 <style scoped>
+
 * {
   margin: 0;
   padding: 0;
@@ -124,7 +125,6 @@
   display: flex;
   justify-content: space-between;
   position: relative;
-
   *background-image: url(@/assets/background-cover.svg);
   background-size: cover;
   background-position: bottom;
@@ -139,16 +139,16 @@
 .cover h1 {
   max-width: 400px;
   font-size: 55px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Black Han Sans", sans-serif;
   font-weight: 900;
   color: #fff;
-  margin-top: -90px;
+  margin-top: -95px;
   margin-bottom: 10px;
 }
 
 .cover h2 {
   font-size: 55px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Black Han Sans", sans-serif;
   font-weight: 900;
   color: #feba0b;
   margin-top: -20px;
@@ -187,46 +187,16 @@
 
 @media screen and (max-width: 920px) {
   .container__vector img {
-    width: 500px;
+    width: 400px;
   }
 }
 
-@media screen and (max-width: 760px) {
-  .container__nav {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .btn__menu {
-    display: flex;
-  }
-
-  nav {
-    height: 100%;
-    background: #f1faff;
-    position: fixed;
-    top: 0;
-    right: -180px;
-    padding: 0px 40px;
-    transition: all 300ms;
-  }
-
-  .move_nav {
-    right: 0px;
-  }
-
-  nav ul {
-    flex-direction: column;
-  }
-
-  nav ul li {
-    margin: 20px 0px;
-  }
+@media screen and (max-width: 873px) {
 
   .container__vector img {
     transform: scale(0);
     animation: none;
   }
 }
+
 </style>
