@@ -47,7 +47,7 @@
     background: #f2f2f2;
     width: 90%;
     margin: 0 auto;
-    padding: 100px 0px 0px 0px;
+    padding: 100px 0px 80px 0px;
     max-width: 1200px;
     min-height: 100vh;
     display: flex;

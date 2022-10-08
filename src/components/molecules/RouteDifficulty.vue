@@ -6,7 +6,7 @@
     </div>
     <div class="content">
       <div class="details">
-        <h2>{{ ruta }}<br /><span>Entrena tus piernas</span></h2>
+        <h2>{{ ruta }}<br /><!-- <span></span> --></h2>
         <div class="data">
           <h3>{{ distancia }}<br /><span>Distancia</span></h3>
           <h3>{{ desnivel }}<br /><span>Desnivel</span></h3>
@@ -19,19 +19,6 @@
     </div>
   </div>
 </template>
-
-<!--   <script>
-    export default {
-      name: "ComponentDificultad",
-      props: {
-      image: String,
-      ruta: String,
-      distancia: String,
-      desnivel: String,
-      tipodebicicleta: String
-      },
-    };
-    </script> -->
 
 <script setup>
 import { defineProps } from "vue";
@@ -65,7 +52,7 @@ defineProps({
 }
 
 .card:hover {
-  height: 450px;
+  height: 420px;
 }
 
 .imgBx {
@@ -107,7 +94,7 @@ defineProps({
 }
 
 .card .content .details {
-  padding: 45px;
+  padding: 40px;
   text-align: center;
   width: 100%;
   transition: 0.5s;
@@ -116,6 +103,7 @@ defineProps({
 
 .card:hover .content .details {
   transform: translateY(0px);
+  padding: 30px;
 }
 
 .card .content .details h2 {
@@ -125,16 +113,16 @@ defineProps({
   line-height: 1.2em;
 }
 
-.card .content .details h2 span {
+/* .card .content .details h2 span {
   font-size: 0.75em;
   font-weight: 500;
   opacity: 0.5;
 }
-
+ */
 .card .content .details .data {
   display: flex;
   justify-content: space-between;
-  margin: 20px 0; /* ojo espacio entre la img y el cont */
+  margin: 30px 0; /* ojo espacio entre la img y el cont */
 }
 
 .card .content .details .data h3 {
@@ -178,9 +166,9 @@ defineProps({
   background: #f2f2f2;
 }
 
-@media screen and (max-width: 322px) {
+@media screen and (max-width: 327px) {
   .card .content .details {
-  padding: 19px;
+  padding: 11px;
   width: 100%;
   transform: translateY(130px);
 }
@@ -192,7 +180,7 @@ defineProps({
 }
 
 .card:hover {
-  height: 370px;
+  height: 390px;
 }
 
 }

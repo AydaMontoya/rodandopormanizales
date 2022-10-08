@@ -16,12 +16,11 @@
             <div class="title">Iniciar sesión</div>
             <div class="input-boxes">
               <div class="input-box">
-                <i class="fas fa-envelope"></i>
-                <!-- poner logo de mensaje -->
+                <i><img src="@/assets/email.png" alt="passwordLogo"/></i>
                 <input type="text" placeholder="Correo electrónico" required />
               </div>
               <div class="input-box">
-                <i class="fas fa-lock"></i>
+                <i><img src="@/assets/password.png" alt="passwordLogo"/></i>
                 <input
                   type="password"
                   placeholder="Contraseña"
@@ -41,17 +40,15 @@
             <div class="title">Registrarse</div>
             <div class="input-boxes">
               <div class="input-box">
-                <i class="fas fa-user"></i>
-                <!-- poner logo -->
+                <i><img src="@/assets/name.png" alt="passwordLogo"/></i>
                 <input type="text" placeholder="Nombre completo" required />
               </div>
               <div class="input-box">
-                <i class="fas fa-envelope"></i>
+                <i><img src="@/assets/email.png" alt="passwordLogo"/></i>
                 <input type="text" placeholder="Correo electrónico" required />
               </div>
               <div class="input-box">
-                <i class="fas fa-lock"></i>
-                <!-- poner icono -->
+                <i><img src="@/assets/password.png" alt="passwordLogo"/></i>
                 <input
                   type="password"
                   placeholder="Contraseña"
@@ -105,7 +102,6 @@
   left: 50%;
   height: 100%;
   width: 50%;
-  /*  background: red; */
   z-index: 98;
   transition: all 1s ease;
   transform-origin: left;
@@ -117,7 +113,6 @@
   position: absolute;
   height: 100%;
   width: 100%;
-  /* background: #5e5e5a; */
   opacity: 0.4;
   z-index: 20;
 }
@@ -127,7 +122,7 @@
   position: absolute;
   height: 100%;
   width: 100%;
-  background: #faf5e60f;
+  background: #6969673c;
   /* opacity: 0.7; */
   z-index: 100;
   transform: rotateY(180deg);
