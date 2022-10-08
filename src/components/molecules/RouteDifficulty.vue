@@ -61,6 +61,7 @@ defineProps({
   border-radius: 20px;
   box-shadow: 0 35px 80px rgb(135, 132, 132);
   transition: 0.5s;
+  margin-bottom: 20px;
 }
 
 .card:hover {
@@ -76,7 +77,7 @@ defineProps({
   height: 150px;
   background: #f2f2f2;
   border-radius: 20px;
-  box-shadow: 0 15px 50px rgba(0, 0, 0, 0.614);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.614);
   overflow: hidden;
   transition: 0.5s;
 }
@@ -175,5 +176,24 @@ defineProps({
   border: 1px solid #364a61;
   color: #364a61;
   background: #f2f2f2;
+}
+
+@media screen and (max-width: 322px) {
+  .card .content .details {
+  padding: 19px;
+  width: 100%;
+  transform: translateY(130px);
+}
+
+.card:hover .imgBx {
+  width: 200px;
+  height: 200px;
+
+}
+
+.card:hover {
+  height: 370px;
+}
+
 }
 </style>

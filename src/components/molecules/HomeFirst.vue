@@ -13,7 +13,7 @@
         <div class="container__cover">
           <div class="container__info">
             <h1>RODANDO POR</h1>
-            <h2>MANIZALES caldas</h2>
+            <h2>MANIZALES</h2>
             <p>
               Aqui encontraras las mejores rutas con su nivel de dificultad y
               distancia, para que salgas a rodar con tus amigos, vivas
@@ -23,7 +23,7 @@
             <!-- <input type="button" value="Get Started"> -->
           </div>
           <div class="container__vector">
-            <img src="@/assets/img3dHome.png" alt="" />
+            <img src="@/assets/img3dHome1.png" alt="" />
           </div>
         </div>
       </div>
@@ -79,12 +79,12 @@
 }
 
 .w1 {
-  animation: w1 7s linear infinite;
+  animation: w1 8s linear infinite;
 }
 
 .w2 {
-  animation: w2 7s linear -0.125s infinite,
-    desplazamiento 7s ease -0.125s infinite;
+  animation: w2 8s linear -0.125s infinite,
+    desplazamiento 8s ease -0.125s infinite;
   opacity: 0.5;
 }
 
@@ -132,23 +132,23 @@
 
 .cover .container__info {
   max-width: 470px;
-  margin-top: 40px;
+  margin-top: 37px;
   z-index: 2;
 }
 
 .cover h1 {
   max-width: 400px;
   font-size: 55px;
-  font-family: "Black Han Sans", sans-serif;
+  font-family: 'Candal', sans-serif;
   font-weight: 900;
   color: #fff;
-  margin-top: -95px;
+  margin-top: -98px;
   margin-bottom: 10px;
 }
 
 .cover h2 {
   font-size: 55px;
-  font-family: "Black Han Sans", sans-serif;
+  font-family: 'Candal', sans-serif;
   font-weight: 900;
   color: #feba0b;
   margin-top: -20px;
@@ -166,8 +166,8 @@
 
 .container__vector img {
   position: absolute;
-  bottom: -60px;
-  right: 0px;
+  bottom: -70px;
+  right: 5px;
   width: 470px;
   transition: all 300ms;
   animation: move_vector 5s ease-in-out infinite;

@@ -3,7 +3,7 @@
     <footer>
       <div class="footer-center">
       <h2 class="titulo-final"><img class="bike-love" src="@/assets/footer2.png" alt="gitlogo"/>
-        &copy; Creado por | Ayda Montoya
+        &copy; Creado por | Ayda Montoya Henao
         <a href="https://github.com/AydaMontoya" target="_blanck">
           <img
             class="git-logo"

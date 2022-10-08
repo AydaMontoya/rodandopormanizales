@@ -58,21 +58,23 @@ export default {
   flex-wrap: wrap;
   justify-content: center;
   margin: auto;
+  margin-top: 10px;
 }
 
 .container .card {
   width: 260px;
-  height: 430px;
+  height: 440px;
   border-radius: 8px;
   box-shadow: 0 2px 15px rgba(0, 0, 0, 0.25);
   overflow: hidden;
-  margin: 20px;
+  margin: 9px;
+  margin-bottom: 20px;
   text-align: center;
   transition: all 0.25s;
 }
 
 .container .card:hover {
-  transform: translateY(-15px);
+  transform: translateY(-10px);
   box-shadow: 0 12px 16px rgba(0, 0, 0, 0.25);
 }
 
@@ -97,7 +99,7 @@ export default {
 .container .card .actionBtn {
   display: flex;
   justify-content: center;
-  padding: 4px;
+  padding: 2px;
   font-weight: bold;
   /* gap: 20px; */
 }

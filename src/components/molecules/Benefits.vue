@@ -3,7 +3,7 @@
     <div class="contenedor beneficios">
       <h1 class="titulo">Beneficios de montar en bicicleta</h1>
       <div class="contenedor-beneficios">
-        <img src="@/assets/bici1.jpg" alt="" class="imagen-catedral" />
+        <img src="@/assets/HomeBenefits2.png" alt="" class="imagen-catedral" />
         <ul class="contenido-textos">
           <li>Reduce los niveles de estrés</li>
           <li>Mejora la autoestima</li>
@@ -31,7 +31,7 @@ export default {
 <style scoped>
   
 .beneficios {
-  padding: 5px 0 20px 0;
+  padding: 0px 0px 10px 0px;
 }
 
 .contenedor-beneficios {
@@ -43,11 +43,11 @@ export default {
   color: #0c233e;
   text-align: center;
   margin-bottom: 30px;
-  padding: 20px 0px 30px 0px;;
+  padding: 10px 0px 5px 0px;
 }
 
 .imagen-catedral {
-  width: 30%;
+  width: 35%;
   border-radius: 10%;
   padding: 0px 0px 30px 0px;
 }
@@ -112,5 +112,22 @@ li::before {
   .beneficios .contenido-textos {
     width: 95%;
   }
+}
+
+@media screen and (max-width: 426px) {
+  .beneficios .contenido-textos {
+    width: 80%;
+  }
+
+  .imagen-catedral {
+    margin-bottom: 1px;
+    width: 99%;
+  }
+
+  .contenido-textos li {
+  margin-bottom: 12px;
+  padding: 0px 0px 0px 40px;
+}
+
 }
 </style>
