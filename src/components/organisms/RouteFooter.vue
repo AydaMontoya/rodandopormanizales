@@ -3,7 +3,7 @@
     <footer>
       <div class="footer-center">
       <h2 class="titulo-final"><img class="bike-love" src="@/assets/footer2.png" alt="gitlogo"/>
-        &copy; Creado por | Ayda Montoya Henao
+        &copy; Creado por <spam> | Ayda Montoya Henao </spam>
         <a href="https://github.com/AydaMontoya" target="_blanck">
           <img
             class="git-logo"
@@ -37,6 +37,7 @@ footer {
 .footer-center{
   display: flex;
   justify-content: space-evenly; 
+  text-align: center;
 
 }
 .titulo-final {
@@ -63,6 +64,10 @@ footer {
 @media screen and (max-width: 900px) {
   footer {
     background-position: center;
+  }
+
+  h2{
+    max-width: 800px;
   }
 }
 </style>

@@ -287,5 +287,8 @@ form .form-content .sign-up-text {
   .container #flip:checked ~ form .login-form {
     display: none;
   }
+  .login {
+  min-height: 90%;
+}
 }
 </style>
