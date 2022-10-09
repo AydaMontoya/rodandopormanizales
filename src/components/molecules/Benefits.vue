@@ -9,10 +9,10 @@
           <li>Mejora la autoestima</li>
           <li>Previene el deterioro cognitivo</li>
           <li>Mejora la memoria</li>
-          <li>Ayuda a controlar las adcciones</li>
-          <li>Mejora el estado animico</li>
+          <li>Ayuda a controlar las adicciones</li>
+          <li>Mejora el estado anímico</li>
           <li>Reduce la agresividad</li>
-          <li>Te ayuda a ser mas productivo</li>
+          <li>Te ayuda a ser más productivo</li>
         </ul>
       </div>
     </div>

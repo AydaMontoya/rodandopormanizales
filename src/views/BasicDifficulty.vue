@@ -2,7 +2,7 @@
     <div>
       <mainTitle title="Escoge tu aventura" />
     </div>
-    <div class="dificultades">
+    <div class="dificult">
       <routeDifficulty
         image="/assets/Chipre.jpg"
         ruta="Chipre"
@@ -45,8 +45,8 @@
   
   <style scoped>
   
-  .dificultades {
-    background: #f2f2f2;
+  .dificult {
+    background: var(--fondo);
     width: 90%;
     margin: 0 auto;
     padding: 100px 0px 0px 0px;

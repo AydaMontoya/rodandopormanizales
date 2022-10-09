@@ -16,23 +16,20 @@
             <div class="title">Iniciar sesión</div>
             <div class="input-boxes">
               <div class="input-box">
-                <i><img src="@/assets/email.png" alt="passwordLogo"/></i>
+                <i><img src="@/assets/email.png" alt="passwordLogo" /></i>
                 <input type="text" placeholder="Correo electrónico" required />
               </div>
               <div class="input-box">
-                <i><img src="@/assets/password.png" alt="passwordLogo"/></i>
-                <input
-                  type="password"
-                  placeholder="Contraseña"
-                  required
-                />
+                <i><img src="@/assets/password.png" alt="passwordLogo" /></i>
+                <input type="password" placeholder="Contraseña" required />
               </div>
               <div class="text"><a href="#">Olvidaste tu contraseña?</a></div>
               <div class="button input-box">
                 <input type="submit" value="Ingresar" />
               </div>
               <div class="text sign-up-text">
-                ¿Aún no tienes una cuenta? <label for="flip">Registrase Ahora</label>
+                ¿Aún no tienes una cuenta?
+                <label for="flip">Registrarse Ahora</label>
               </div>
             </div>
           </div>
@@ -40,26 +37,23 @@
             <div class="title">Registrarse</div>
             <div class="input-boxes">
               <div class="input-box">
-                <i><img src="@/assets/name.png" alt="passwordLogo"/></i>
+                <i><img src="@/assets/name.png" alt="passwordLogo" /></i>
                 <input type="text" placeholder="Nombre completo" required />
               </div>
               <div class="input-box">
-                <i><img src="@/assets/email.png" alt="passwordLogo"/></i>
+                <i><img src="@/assets/email.png" alt="passwordLogo" /></i>
                 <input type="text" placeholder="Correo electrónico" required />
               </div>
               <div class="input-box">
-                <i><img src="@/assets/password.png" alt="passwordLogo"/></i>
-                <input
-                  type="password"
-                  placeholder="Contraseña"
-                  required
-                />
+                <i><img src="@/assets/password.png" alt="passwordLogo" /></i>
+                <input type="password" placeholder="Contraseña" required />
               </div>
               <div class="button input-box">
                 <input type="submit" value="Registrarse" />
               </div>
               <div class="text sign-up-text">
-                ¿Ya tienes una cuenta? <label for="flip">Inicia sesión ahora</label>
+                ¿Ya tienes una cuenta?
+                <label for="flip">Inicia sesión ahora</label>
               </div>
             </div>
           </div>
@@ -81,7 +75,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #f2f2f2;
+  background: var(--fondo);
   padding: 30px;
 }
 
@@ -108,7 +102,7 @@
   transform-style: preserve-3d;
 }
 
-.container .cover::before{
+.container .cover::before {
   content: "";
   position: absolute;
   height: 100%;
@@ -117,7 +111,7 @@
   z-index: 20;
 }
 
-.container .cover::after{
+.container .cover::after {
   content: "";
   position: absolute;
   height: 100%;
@@ -141,7 +135,7 @@
   backface-visibility: hidden;
 }
 
-.container .cover .back .backImg{
+.container .cover .back .backImg {
   transform: rotateY(180deg);
 }
 
@@ -157,7 +151,7 @@
   justify-content: space-between;
 }
 
-.form-content .login-form,
+.form-content .login-form, 
 .form-content .signup-form {
   width: calc(100% / 2 - 25px);
 }
@@ -166,7 +160,7 @@ form .form-content .title {
   position: relative;
   font-size: 24px;
   font-weight: 500;
-  color: #333;
+  color: var(--color3);
 }
 
 form .form-content .title:before {
@@ -176,7 +170,7 @@ form .form-content .title:before {
   bottom: 0;
   height: 3px;
   width: 25px;
-  background: #ffc200;
+  background: var(--color1);
 }
 
 form .signup-form .title:before {
@@ -210,19 +204,19 @@ form .form-content .input-box {
 
 .form-content .input-box input:focus,
 .form-content .input-box input:valid {
-  border-color: #ffc200;
+  border-color: var(--color1);
 }
 
 .form-content .input-box i {
   position: absolute;
-  color: #ffc200;
+  color: var(--color1);
   font-size: 17px;
 }
 
 form .form-content .text {
   font-size: 14px;
   font-weight: 500;
-  color: #333;
+  color: var(--color2);
 }
 
 form .form-content .text a {
@@ -240,7 +234,7 @@ form .form-content .button {
 
 form .form-content .button input {
   color: #fff;
-  background: #ffc200;
+  background: var(--color1);
   border-radius: 6px;
   padding: 0;
   cursor: pointer;
@@ -248,11 +242,11 @@ form .form-content .button input {
 }
 
 form .form-content .button input:hover {
-  background: #ffc200;
+  background: var(--color1);
 }
 
 form .form-content label {
-  color: #ffc200;
+  color: var(--color1);
   cursor: pointer;
 }
 
@@ -288,7 +282,7 @@ form .form-content .sign-up-text {
     display: none;
   }
   .login {
-  min-height: 90%;
-}
+    min-height: 90%;
+  }
 }
 </style>

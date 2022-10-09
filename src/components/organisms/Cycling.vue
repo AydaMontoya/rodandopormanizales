@@ -1,5 +1,5 @@
 <template>
-  <div class="ciclistas">
+  <div class="cyclists">
     <div class="container">
       <input type="radio" name="dot" id="one" />
       <input type="radio" name="dot" id="two" />
@@ -13,7 +13,7 @@
               <div class="details">
                 <div class="name">Nairo Alexander Quintana Rojas</div>
                 <br />
-                <div class="job">
+                <div class="description">
                   (Tunja, Boyacá, 4 de febrero de 1990) conocido como
                   “Nairoman”. Corredor en la disciplina de Ruta con perfil de
                   escalador. Equipo actual (Arkéa Samsic).En el 2012, dio el
@@ -40,12 +40,12 @@
           <div class="card">
             <div class="content">
               <div class="img">
-                <img src="@/assets/MarianaPajon.jpg" alt="" />
+                <img src="@/assets/MarianaPajon.jpg" alt="Mariana Pajon" />
               </div>
               <div class="details">
                 <div class="name">Mariana Pajón Londoño</div>
                 <br />
-                <div class="job">
+                <div class="description">
                   (Medellín, 10 de octubre de 1991) conocida como "La reina del
                   BMX". Es una deportista, bicicrosista, ciclista de BMX,
                   medallista de plata y doble medallista de oro olímpica.
@@ -72,15 +72,15 @@
           <div class="card">
             <div class="content">
               <div class="img">
-                <img src="@/assets/RigoUran.jpg" alt="" />
+                <img src="@/assets/RigoUran.jpg" alt="Rigoberto Urán" />
               </div>
               <div class="details">
                 <div class="name">Rigoberto Urán Urán</div>
                 <br />
-                <div class="job">
+                <div class="description">
                   (Urrao, 26 de enero de 1987) conocido como "El toro de Urrao".
                   Es un corredor en la disciplina de Ruta con perfil de
-                  escalador y tambien contrarrelojista. Equipo actual (EF
+                  escalador y también contrarrelojista. Equipo actual (EF
                   Education-EasyPost). Sus logros más destacados como deportista
                   han sido la medalla de plata en los Juegos Olímpicos de
                   Londres 2012 en la prueba de ciclismo en ruta, y la segunda
@@ -106,12 +106,12 @@
           <div class="card">
             <div class="content">
               <div class="img">
-                <img src="@/assets/EganB.jpg" alt="" />
+                <img src="@/assets/EganB.jpg" alt="Egan Bernal" />
               </div>
               <div class="details">
                 <div class="name">Egan Arley Bernal Gómez</div>
                 <br />
-                <div class="job">
+                <div class="description">
                   (Bogotá 13 de enero de 1997) conocido como “Escarabajo de
                   oro”. Corredor en la disciplina de Ruta con perfil de
                   escalador. Equipo actual (INEOS). En 2019 se convirtió en el
@@ -138,13 +138,13 @@
           <div class="card">
             <div class="content">
               <div class="img">
-                <img src="@/assets/mariaLuisa.jpg" alt="" />
+                <img src="@/assets/mariaLuisa.jpg" alt="Maria Luisa" />
               </div>
               <div class="details">
                 <div class="name">María Luisa Calle Williams</div>
                 <br />
-                <div class="job">
-                  (Medellín 3 de octubre de 1968). Exciclista Colombiana de
+                <div class="description">
+                  (Medellín 3 de octubre de 1968). Ex ciclista Colombiana de
                   ciclismo en pista y ciclismo en ruta. Participo de los juegos
                   olímpicos de Atenas en 2004 y otras competencias de alto nivel
                   en el ciclismo de pista como lo son los mundiales de ciclismo
@@ -170,14 +170,14 @@
           <div class="card">
             <div class="content">
               <div class="img">
-                <img src="@/assets/Lucho.jpg" alt="" />
+                <img src="@/assets/Lucho.jpg" alt="Lucho Herrera" />
               </div>
               <div class="details">
                 <div class="name">Luis Alberto Herrera Herrera</div>
                 <br />
-                <div class="job">
+                <div class="description">
                   (Fusagasugá, Cundinamarca, 4 de mayo de 1961), conocido como
-                  "Lucho Herrera". Exciclista Colombiano, profesional entre 1982
+                  "Lucho Herrera". Ex ciclista Colombiano, profesional entre 1982
                   y 1992, durante los cuales consiguió 30 victorias, la más
                   importante fue la vuelta a España 1987. Fue el primer ciclista
                   colombiano y latinoamericano en ganar una de las tres Grandes
@@ -215,22 +215,21 @@ export default {
 };
 </script>
 
-<style>
-.ciclistas {
+<style scoped>
+.cyclists {
   display: flex;
   min-height: 100vh;
   align-items: center;
   justify-content: center;
-  background: #f2f2f2;
+  background: var(--fondo);
   position: relative;
 }
 
 .titulo {
-  color: #0c233e;
+  color: var(--color3);
   text-align: center;
   margin-bottom: 0;
 }
-
 
 .container {
   max-width: 950px;
@@ -285,7 +284,7 @@ export default {
   width: 130px;
   border-radius: 50%;
   padding: 3px;
-  background: #ffc200;
+  background: var(--color1);
   margin-bottom: 10px;
 }
 
@@ -300,13 +299,13 @@ export default {
 .card .content .name {
   font-size: 20px;
   font-weight: 700;
-  color: #0c233e;
+  color: var(--color3);
   text-align: center;
 }
 
-.card .content .job {
+.card .content .description {
   font-size: 15px;
-  color: #2a2f35;
+  color: var(--color2);
   text-align: justify;
   padding: 0px 10px;
 }
@@ -328,11 +327,12 @@ export default {
   justify-content: center;
   margin: 20px;
 }
+
 .button label {
   height: 15px;
   width: 15px;
   border-radius: 20px;
-  background: #ffc200;
+  background: var(--color1);
   margin: 0 4px;
   cursor: pointer;
   transition: all 0.5s ease;
@@ -367,10 +367,10 @@ input[type="radio"] {
     margin: 20px 0 10px 0;
     width: calc(100% / 2 - 10px);
   }
+
 }
 @media (max-width: 600px) {
   .main-card .cards .card {
-    /* margin: 20px 0 10px 0; */
     width: 100%;
   }
 }

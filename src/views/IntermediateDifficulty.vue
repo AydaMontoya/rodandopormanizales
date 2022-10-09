@@ -2,7 +2,7 @@
     <div>
       <mainTitle title="Elige tu nuevo reto"/>
     </div>
-    <div class="dificultades">
+    <div class="dificult">
       <routeDifficulty
         image="/assets/Acuaparque.jpg"
         ruta="Acquaparque"
@@ -12,7 +12,7 @@
         mapa="https://www.google.com/maps/d/u/0/edit?mid=1F1Gb1nsxoZI0uTAbctLif7sRINCebdU&ll=5.037052578096215%2C-75.50634150623236&z=13"
       />
       <routeDifficulty
-        image="/assets/La puerta.jpg"
+        image="/assets/Lapuerta.jpg"
         ruta="La puerta"
         distancia="18.98 km"
         desnivel="451 m"
@@ -45,8 +45,8 @@
   
   <style scoped>
   
-  .dificultades {
-    background: #f2f2f2;
+  .dificult {
+    background: var(--fondo);
     width: 90%;
     margin: 0 auto;
     padding: 100px 0px 0px 0px;

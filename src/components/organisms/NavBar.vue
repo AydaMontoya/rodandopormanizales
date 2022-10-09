@@ -13,7 +13,7 @@
       </label>
       <input name="check" type="checkbox" id="check" />
       <ul>
-        <li><router-link :onclick="ejemplo" to="/">Home</router-link></li>
+        <li><router-link :onclick="ejemplo" to="/">Inicio</router-link></li>
         <li>
           <router-link :onclick="ejemplo" to="/bikeRoutes">Rutas</router-link>
         </li>

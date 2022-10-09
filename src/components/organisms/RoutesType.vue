@@ -1,18 +1,18 @@
 <template>
   <div class="container">
     <div class="card">
-      <img src="@/assets/manizales8.jpg">
+      <img src="@/assets/nevadoRuiz.jpg" alt="Nevado del Ruiz">
         <p>La vida es como montar en bicicleta, para mantener el equilibrio hay que seguir pedaleando.<br>"Albert Einstein"</p>
         <div class="actionBtn">
         <button>
           <router-link to="/basicDifficulty"
-            >Basica</router-link>
+            >Básica</router-link>
         </button>
       </div>
     </div>
 
     <div class="card">
-      <img src="@/assets/Manizales5.jpg">
+      <img src="@/assets/catedral.jpg" alt="Catedral de Manizales">
       <p>Montar en bicicleta es la mejor droga antidepresiva y solo tiene buenos efectos secundarios.<br> "Gunnar Rempel"</p>
       <div class="actionBtn">
         <button>
@@ -23,7 +23,7 @@
     </div>
 
     <div class="card">
-      <img src="@/assets/manizales4.jpg" alt="" />
+      <img src="@/assets/cable.jpg" alt="Cable Manizales" />
       <p>Al igual que los perros, las bicicletas son catalizadores sociales que atraen a una categoría superior de personas. <br> "Chip Brown"</p>
       <div class="actionBtn">
         <button>
@@ -45,6 +45,7 @@ export default {
 </script>
 
 <style scoped>
+
 * {
   margin: 0;
   padding: 0;
@@ -102,7 +103,6 @@ export default {
   justify-content: center;
   padding: 2px;
   font-weight: bold;
-  /* gap: 20px; */
 }
 
 .container .card .actionBtn button {
@@ -112,8 +112,8 @@ export default {
   outline: none;
   font-size: 1em;
   font-weight: 500;
-  background: #ffc200;
-  color: #0c233e;
+  background: var(--color1);
+  color: var(--color3);
   cursor: pointer;
 }
 

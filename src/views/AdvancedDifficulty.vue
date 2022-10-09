@@ -3,7 +3,7 @@
       <mainTitle title="Selecciona tu desafío"/>
     </div>
 
-    <div class="dificultades">
+    <div class="dificult">
       <routeDifficulty
         image="/assets/Letras.jpg"
         ruta="Alto de letras"
@@ -14,7 +14,7 @@
       />
       <routeDifficulty
         image="/assets/Chinchina.jpg"
-        ruta="Chinchina"
+        ruta="Chinchiná"
         distancia="45.42 km"
         desnivel="1.056 m"
         tipodebicicleta="MTB"
@@ -46,8 +46,8 @@
   
   <style scoped>
   
-  .dificultades {
-    background: #f2f2f2;
+  .dificult{
+    background: var(--fondo);
     width: 90%;
     margin: 0 auto;
     padding: 100px 0px 80px 0px;

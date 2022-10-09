@@ -15,8 +15,7 @@
           <div class="route-type">
             <p>Selecciona tu ruta</p>
 
-            <select class="select-box" v-model="rutas"> 
-              
+            <select class="select-box" v-model="rutas">
               <option
                 class="ciudad"
                 value="https://api.openweathermap.org/data/2.5/weather?lat=5.068&lon=-75.517&appid=5f3e2ffb975979235a637c386a62fb9a"
@@ -36,19 +35,23 @@
                 Neira
               </option>
             </select>
-            <!-- <a href="#" class="cta">Agenda una demo</a> -->
           </div>
           <div class="validation">
             <button v-on:click="weather">Validar</button>
             <div class="apiWeather" v-show="mostrar">
               <p><span class="copy__active">Ciudad: </span>{{ ciudad }}</p>
-              <p><span class="copy__active">Estado del clima: </span>{{ clima }}</p>
-              <p><span class="copy__active">Temperatura: </span>{{ temperaturaCelcius }}ºC</p>
+              <p>
+                <span class="copy__active">Estado del clima: </span>{{ clima }}
+              </p>
+              <p>
+                <span class="copy__active">Temperatura: </span
+                >{{ temperaturaCelcius }}ºC
+              </p>
               <p><span class="copy__active">Humedad: </span>{{ humedad }}%</p>
             </div>
           </div>
         </div>
-        <img src="@/assets/weatherPage1.png" class="mockup" />
+        <img src="@/assets/weatherPage.png" class="mockup" />
       </section>
     </header>
   </div>
@@ -88,8 +91,7 @@ export default {
 </script>
 
 <style scoped>
-
-.select-box{
+.select-box {
   position: relative;
   display: block;
   width: 20px;
@@ -97,12 +99,12 @@ export default {
   margin-left: 15px;
   font-size: 18px;
   color: var(--color3);
-  background-color:var(--fondo) ;
+  background-color: var(--fondo);
   border-radius: 10px;
   border: solid 2px var(--color1);
 }
 
-.select-box option{
+.select-box option {
   color: var(--color1);
   font-family: "Nunito", sans-serif;
 }
@@ -171,7 +173,7 @@ export default {
   color: var(--color2);
 }
 
-button{
+button {
   padding: 7px 15px;
   margin-top: 6px;
   border-radius: 5px;
@@ -268,5 +270,4 @@ button{
     margin-bottom: 15px;
   }
 }
-
 </style>

@@ -2,16 +2,18 @@
   <div>
     <footer>
       <div class="footer-center">
-      <h2 class="titulo-final"><img class="bike-love" src="@/assets/footer2.png" alt="gitlogo"/>
-        &copy; Creado por <spam> | Ayda Montoya Henao </spam>
-        <a href="https://github.com/AydaMontoya" target="_blanck">
+        <h2 class="final-title">
           <img
-            class="git-logo"
-            src="@/assets/github2.png"
-            alt="gitlogo"
-        /></a>
-      </h2>
-    </div>
+            class="bike-love"
+            src="@/assets/bikeLove.png"
+            alt="Amor por la bici"
+          />
+          &copy; Creado por <spam> | Ayda Montoya Henao </spam>
+          <a href="https://github.com/AydaMontoya" target="_blanck">
+            <img class="git-logo" src="@/assets/github.png" alt="gitlogo"
+          /></a>
+        </h2>
+      </div>
     </footer>
   </div>
 </template>
@@ -25,26 +27,25 @@ export default {
 };
 </script>
 
-<style>
-
+<style scoped>
 footer {
-  background:#1A2849;;
+  background:var(--color3);
   overflow: hidden;
   flex-wrap: wrap;
   gap: 1rem;
 }
 
-.footer-center{
+.footer-center {
   display: flex;
-  justify-content: space-evenly; 
+  justify-content: space-evenly;
   text-align: center;
-
 }
-.titulo-final {
+
+.final-title {
   text-align: center;
   font-size: 20px;
   margin: auto;
-  color: #f9f4f4;
+  color: #f2f2f2;
   display: flex;
   flex-direction: row;
   align-content: center;
@@ -57,8 +58,8 @@ footer {
   border-radius: 70%;
 }
 
-.bike-love{
-  width: 140px;
+.bike-love {
+  width: 150px;
 }
 
 @media screen and (max-width: 900px) {
@@ -66,7 +67,7 @@ footer {
     background-position: center;
   }
 
-  h2{
+  h2 {
     max-width: 800px;
   }
 }

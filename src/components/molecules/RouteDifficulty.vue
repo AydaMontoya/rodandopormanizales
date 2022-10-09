@@ -6,7 +6,7 @@
     </div>
     <div class="content">
       <div class="details">
-        <h2>{{ ruta }}<br /><!-- <span></span> --></h2>
+        <h2>{{ ruta }}<br /></h2>
         <div class="data">
           <h3>{{ distancia }}<br /><span>Distancia</span></h3>
           <h3>{{ desnivel }}<br /><span>Desnivel</span></h3>
@@ -36,7 +36,7 @@ defineProps({
 <style scoped>
 
 .titulo {
-  color: #0c233e;
+  color: var(--color3);
   text-align: center;
 }
 
@@ -44,7 +44,7 @@ defineProps({
   position: relative;
   width: 300px;
   height: 180px;
-  background: #f2f2f2;
+  background:var(--fondo);
   border-radius: 20px;
   box-shadow: 0 35px 80px rgb(135, 132, 132);
   transition: 0.5s;
@@ -62,7 +62,7 @@ defineProps({
   transform: translateX(-50%);
   width: 150px;
   height: 150px;
-  background: #f2f2f2;
+  background: var(--fondo);
   border-radius: 20px;
   box-shadow: 0 15px 30px rgba(0, 0, 0, 0.614);
   overflow: hidden;
@@ -109,25 +109,19 @@ defineProps({
 .card .content .details h2 {
   font-size: 1.25em;
   font-weight: 600;
-  color: #364a61;
+  color: var(--color2);
   line-height: 1.2em;
 }
 
-/* .card .content .details h2 span {
-  font-size: 0.75em;
-  font-weight: 500;
-  opacity: 0.5;
-}
- */
 .card .content .details .data {
   display: flex;
   justify-content: space-between;
-  margin: 30px 0; /* ojo espacio entre la img y el cont */
+  margin: 30px 0; /* espacio entre la img y el cont */
 }
 
 .card .content .details .data h3 {
   font-size: 0.9em;
-  color: #364a61;
+  color: var(--color2);
   line-height: 1.2em;
   font-weight: 600;
 }
@@ -151,8 +145,8 @@ defineProps({
   outline: none;
   font-size: 1em;
   font-weight: 500;
-  background: #ffc200;
-  color: #0c233e;
+  background: var(--color1);
+  color:var(--color3);
   cursor: pointer;
 }
 
@@ -161,9 +155,9 @@ defineProps({
 }
 
 .card .content .details .actionBtn button:nth-child(2) {
-  border: 1px solid #364a61;
-  color: #364a61;
-  background: #f2f2f2;
+  border: 1px solid var(--color4);
+  color: var(--color4);
+  background: var(--fondo);
 }
 
 @media screen and (max-width: 327px) {

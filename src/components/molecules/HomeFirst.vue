@@ -15,10 +15,10 @@
             <h1>RODANDO POR</h1>
             <h2>MANIZALES</h2>
             <p>
-              Aqui encontrarás las mejores rutas con su nivel de dificultad y
+              Aquí encontrarás las mejores rutas con su nivel de dificultad y
               distancia, para que salgas a rodar con tus amigos, vivas
               encantadoras aventuras y explores el maravilloso paisaje que tiene
-              manizales para ti.
+              Manizales para ti.
             </p>
           </div>
           <div class="container__vector">
