@@ -54,6 +54,7 @@ export default {
 .container {
   width: 100%;
   max-width: 1200px;
+  height: 100%; /* //modificado */
   display: flex;
   flex-wrap: wrap;
   justify-content: center;

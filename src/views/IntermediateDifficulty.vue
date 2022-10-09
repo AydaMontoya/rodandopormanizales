@@ -1,6 +1,6 @@
 <template>
     <div>
-      <mainTitle title="Elige el nuevo reto"/>
+      <mainTitle title="Elige tu nuevo reto"/>
     </div>
     <div class="dificultades">
       <routeDifficulty
@@ -9,6 +9,7 @@
         distancia="29.68 km"
         desnivel="723 m"
         tipodebicicleta="MTB-RUTA"
+        mapa="https://www.google.com/maps/d/u/0/edit?mid=1F1Gb1nsxoZI0uTAbctLif7sRINCebdU&ll=5.037052578096215%2C-75.50634150623236&z=13"
       />
       <routeDifficulty
         image="/assets/La puerta.jpg"
@@ -16,6 +17,7 @@
         distancia="18.98 km"
         desnivel="451 m"
         tipodebicicleta="MTB"
+        mapa="https://www.google.com/maps/d/u/0/edit?mid=1mCkOnkt5RHDM_fEuBTqrby2W8Crknxc&ll=5.057919739527988%2C-75.4878794368575&z=14"
       />
       <routeDifficulty
         image="/assets/ReservadelRuiz.jpg"
@@ -23,6 +25,7 @@
         distancia="34.38 km"
         desnivel="794 m"
         tipodebicicleta="MTB"
+        mapa="https://www.google.com/maps/d/u/0/edit?mid=1UM19QYQFZ-kXtia02TrLzkqHLjM84Hk&ll=5.013169578767074%2C-75.49325610398778&z=13"
       />
     </div>
   </template>

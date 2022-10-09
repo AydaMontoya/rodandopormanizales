@@ -1,6 +1,6 @@
 <template>
     <div>
-      <mainTitle title="Selecciona tu aventura"/>
+      <mainTitle title="Selecciona tu desafío"/>
     </div>
 
     <div class="dificultades">
@@ -10,6 +10,7 @@
         distancia="71.21 km"
         desnivel="1.894 m"
         tipodebicicleta="MTB-RUTA"
+        mapa="https://www.google.com/maps/d/u/0/edit?mid=1v_qcP1-3-x4lxEsQUSZoemRvjskGxDo&ll=5.046769353140595%2C-75.46761233507284&z=12"
       />
       <routeDifficulty
         image="/assets/Chinchina.jpg"
@@ -17,6 +18,7 @@
         distancia="45.42 km"
         desnivel="1.056 m"
         tipodebicicleta="MTB"
+        mapa="https://www.google.com/maps/d/u/0/edit?mid=1ZnjDKfwpByScKOBP92SHr8WSj1cqTVE&ll=5.022052745657499%2C-75.57414900030611&z=13"
       />
       <routeDifficulty
         image="/assets/Neira.jpg"
@@ -24,6 +26,7 @@
         distancia="41.44 km"
         desnivel="1.116 m"
         tipodebicicleta="MTB"
+        mapa="https://www.google.com/maps/d/u/0/edit?mid=1pT4jZZWsMLOm7ZD2N3O2VhIlIunhVoA&ll=5.121860284899141%2C-75.55627368302952&z=12"
       />
     </div>
   </template>
