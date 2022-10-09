@@ -5,7 +5,7 @@
     <div class="dificultades">
       <routeDifficulty
         image="/assets/Acuaparque.jpg"
-        ruta="Acuaparque"
+        ruta="Acquaparque"
         distancia="29.68 km"
         desnivel="723 m"
         tipodebicicleta="MTB-RUTA"

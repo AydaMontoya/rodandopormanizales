@@ -14,7 +14,9 @@
 
           <div class="route-type">
             <p>Selecciona tu ruta</p>
-            <select class="selector" v-model="rutas">
+
+            <select class="select-box" v-model="rutas"> 
+              
               <option
                 class="ciudad"
                 value="https://api.openweathermap.org/data/2.5/weather?lat=5.068&lon=-75.517&appid=5f3e2ffb975979235a637c386a62fb9a"
@@ -39,10 +41,10 @@
           <div class="validation">
             <button v-on:click="weather">Validar</button>
             <div class="apiWeather" v-show="mostrar">
-              <p>Ciudad: {{ ciudad }}</p>
-              <p>Estado del clima: {{ clima }}</p>
-              <p>Temperatura: {{ temperaturaCelcius }}ºC</p>
-              <p>Humedad: {{ humedad }}%</p>
+              <p><span class="copy__active">Ciudad: </span>{{ ciudad }}</p>
+              <p><span class="copy__active">Estado del clima: </span>{{ clima }}</p>
+              <p><span class="copy__active">Temperatura: </span>{{ temperaturaCelcius }}ºC</p>
+              <p><span class="copy__active">Humedad: </span>{{ humedad }}%</p>
             </div>
           </div>
         </div>
@@ -86,6 +88,25 @@ export default {
 </script>
 
 <style scoped>
+
+.select-box{
+  position: relative;
+  display: block;
+  width: 20px;
+  height: 30px;
+  margin-left: 15px;
+  font-size: 18px;
+  color: var(--color3);
+  background-color:var(--fondo) ;
+  border-radius: 10px;
+  border: solid 2px var(--color1);
+}
+
+.select-box option{
+  color: var(--color1);
+  font-family: "Nunito", sans-serif;
+}
+
 .container {
   width: 90%;
   max-width: 1200px;
@@ -151,7 +172,8 @@ export default {
 }
 
 button{
-  padding: 8px 15px;
+  padding: 7px 15px;
+  margin-top: 6px;
   border-radius: 5px;
   border: none;
   outline: none;
@@ -182,7 +204,7 @@ button{
   }
 
   button {
-    padding: 15px 22px;
+    padding: 7px 22px;
   }
 }
 
@@ -234,7 +256,7 @@ button{
   }
 
   button {
-    padding: 15px 22px;
+    padding: 7px 22px;
     text-align: center;
     justify-content: center;
   }
@@ -246,4 +268,5 @@ button{
     margin-bottom: 15px;
   }
 }
+
 </style>
