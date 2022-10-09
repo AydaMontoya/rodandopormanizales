@@ -7,14 +7,14 @@
 </template>
 
 <script>
-import routeFooter from "@/components/organisms/RouteFooter.vue";
 import NavBar from "./components/organisms/NavBar.vue";
+import routeFooter from "@/components/organisms/RouteFooter.vue";
 
 export default {
   name: "Home",
   components: {
-    routeFooter,
     NavBar,
+    routeFooter,
   },
 };
 </script>

@@ -2,7 +2,7 @@
   <div class="header">
     <div class="logo-header">
       <a href=""
-        ><img src="@/assets/LogoOficial1.png" alt="Logo de mi proyecto"
+        ><img src="@/assets/logoRPM.png" alt="Logo del proyecto"
       /></a>
     </div>
     <nav class="nav-menu">
@@ -14,10 +14,22 @@
       <input name="check" type="checkbox" id="check" />
       <ul>
         <li><router-link :onclick="ejemplo" to="/">Home</router-link></li>
-        <li><router-link :onclick="ejemplo" to="/bikeRoutes">Rutas</router-link></li>
-        <li><router-link :onclick="ejemplo" to="/weather">Valida el clima</router-link></li>
-        <li><router-link :onclick="ejemplo" to="/colombianCycling">Ciclismo Colombiano</router-link></li>
-        <li><router-link :onclick="ejemplo" to="/login">Registrase</router-link></li>
+        <li>
+          <router-link :onclick="ejemplo" to="/bikeRoutes">Rutas</router-link>
+        </li>
+        <li>
+          <router-link :onclick="ejemplo" to="/weather"
+            >Valida el clima</router-link
+          >
+        </li>
+        <li>
+          <router-link :onclick="ejemplo" to="/colombianCycling"
+            >Ciclismo Colombiano</router-link
+          >
+        </li>
+        <li>
+          <router-link :onclick="ejemplo" to="/login">Registrarse</router-link>
+        </li>
       </ul>
     </nav>
   </div>
@@ -38,6 +50,7 @@ export default {
 </script>
 
 <style scoped>
+
 * {
   padding: 0;
   margin: 0;
@@ -45,9 +58,8 @@ export default {
   list-style: none;
 }
 
-a,
-li {
-  color: #2a2f35;
+a, li {
+  color: var(--color2);
   font-size: 20px;
 }
 
@@ -56,48 +68,40 @@ li {
 }
 
 .header {
-  background-color: #f2f2f2;
+  background-color: var(--fondo);
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 2px 25px;
 }
-
 .nav-menu ul {
   display: flex;
   align-items: center;
-  /*   background: transparent; */
 }
-
 .nav-menu li {
   margin-right: 1.5rem;
-  color: #ffc200;
+  color: var(--color1);
 }
-
 .nav-menu a:hover {
-  color: #ffc200;
+  color: var(--color1);
 }
-
 .nav-menu li:last-child {
-  background-color: #ffc200;
+  background-color: var(--color1);
   border: 2px solid;
   padding: 0.25rem 0.75rem;
   border-radius: 0.2rem;
 }
-
 .nav-menu li:last-child:hover {
   background: transparent;
-  border: 2px solid #ffc200;
+  border: 2px solid var(--color1);
 }
-
 .menu-icon img {
   width: 35px;
   height: 35px;
   border-radius: 2px;
 }
 
-.menu-icon,
-#check {
+.menu-icon, #check {
   display: none;
 }
 
@@ -105,12 +109,6 @@ li {
   .checkbtn {
     display: block;
   }
-
-  /*   #check:checked + .header{
-    position: absolute;
-    width: 100%;
-  } */
-
   .menu-icon {
     display: block;
     position: absolute;
@@ -118,7 +116,6 @@ li {
     right: 20px;
     cursor: pointer;
   }
-
   .nav-menu ul {
     display: block;
     position: absolute;
@@ -126,19 +123,16 @@ li {
     z-index: 1000;
     top: 95px;
     left: -100%;
-    background: #f2f2f2;
+    background: var(--fondo);
     width: 100%;
     right: 0;
-    /* height: 100%; */
   }
-
   .nav-menu ul li {
     padding: 3px;
     display: flex;
     justify-content: center;
     margin: 0;
   }
-
   .nav-menu ul li:last-child {
     background: none;
     border: none;

@@ -15,15 +15,14 @@
             <h1>RODANDO POR</h1>
             <h2>MANIZALES</h2>
             <p>
-              Aqui encontraras las mejores rutas con su nivel de dificultad y
+              Aqui encontrarás las mejores rutas con su nivel de dificultad y
               distancia, para que salgas a rodar con tus amigos, vivas
               encantadoras aventuras y explores el maravilloso paisaje que tiene
               manizales para ti.
             </p>
-            <!-- <input type="button" value="Get Started"> -->
           </div>
           <div class="container__vector">
-            <img src="@/assets/img3dHome1.png" alt="" />
+            <img src="@/assets/img3DHome.png" alt="Imagen 3D home" />
           </div>
         </div>
       </div>
@@ -48,11 +47,9 @@
 }
 
 /*COVER*/
-
 .cover {
   width: 100%;
   padding-bottom: 170px;
-  /* font-family: 'Poppins', sans-serif; */
   padding-top: 100px;
   position: relative;
   overflow: hidden;
@@ -63,7 +60,7 @@
 .bg_color {
   width: 100%;
   height: 70%;
-  background: #0c233e;
+  background: var(--color3);
   position: absolute;
   top: 0;
 }
@@ -84,7 +81,7 @@
 
 .w2 {
   animation: w2 8s linear -0.125s infinite,
-    desplazamiento 8s ease -0.125s infinite;
+  desplazamiento 8s ease -0.125s infinite;
   opacity: 0.5;
 }
 
@@ -139,24 +136,24 @@
 .cover h1 {
   max-width: 400px;
   font-size: 55px;
-  font-family: 'Candal', sans-serif;
+  font-family: "Candal", sans-serif;
   font-weight: 900;
-  color: #fff;
+  color: #f2f2f2;
   margin-top: -98px;
   margin-bottom: 10px;
 }
 
 .cover h2 {
   font-size: 55px;
-  font-family: 'Candal', sans-serif;
+  font-family: "Candal", sans-serif;
   font-weight: 900;
-  color: #feba0b;
+  color: var(--color1);
   margin-top: -20px;
 }
 
 .cover p {
   margin-top: 10px;
-  color: #fff;
+  color: #f2f2f2;
   font-size: 20px;
 }
 
@@ -192,11 +189,9 @@
 }
 
 @media screen and (max-width: 873px) {
-
   .container__vector img {
     transform: scale(0);
     animation: none;
   }
 }
-
 </style>
