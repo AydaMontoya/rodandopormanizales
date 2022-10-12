@@ -22,7 +22,7 @@
             </p>
           </div>
           <div class="container__vector">
-            <img src="@/assets/img3DHome.png" alt="Imagen 3D home" />
+            <img src="@/assets/imgHome.png" alt="Imagen 3D home" />
           </div>
         </div>
       </div>
