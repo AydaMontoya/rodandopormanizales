@@ -29,9 +29,9 @@ export default {
 }
 
 :root {
-  --color1: #ffc200;
+  --color1: rgb(255, 196, 0);
   --color2: #2a2f35;
-  --color3: #0c233e;
+  --color3: rgb(12, 35, 62);
   --color4: #364a61;
   --fondo: #f2f2f2;
   --titulos: 33px;
