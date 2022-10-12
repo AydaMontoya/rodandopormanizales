@@ -31,7 +31,7 @@
   </template>
   
   <script>
-  import routeDifficulty from "@/components/molecules/RouteDifficulty.vue";
+  import routeDifficulty from "@/components/molecule/RouteDifficulty.vue";
   import mainTitle from "@/components/atomos/MainTitle.vue";
   
   export default {

@@ -4,8 +4,8 @@
 </template>
 
 <script>
-import benefits from "@/components/molecules/Benefits.vue";
-import First from "@/components/molecules/First.vue";
+import benefits from "@/components/molecule/Benefits.vue";
+import First from "@/components/molecule/First.vue";
 
 export default {
   name: "Home",
