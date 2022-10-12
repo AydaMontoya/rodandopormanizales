@@ -12,7 +12,7 @@
         mapa="https://www.google.com/maps/d/u/0/edit?mid=1DA1FyyO7i7A3Bd-JCnwpPoTb9qiBkUE&ll=5.071086503904409%2C-75.51810352059059&z=15"
       />
       <routeDifficulty
-        image="/assets/Bosquepopular.jpg"
+        image="/assets/Bosquepopular.png"
         ruta="Bosque Popular"
         distancia="11.84 km"
         desnivel="257 m"
@@ -20,7 +20,7 @@
         mapa="https://www.google.com/maps/d/u/0/edit?mid=1_T3Akwtwu_5dQkL_jbd9CjrDFdSqlJc&ll=5.043807640211721%2C-75.47479647671528&z=15"
       />
       <routeDifficulty
-        image="/assets/CerrodeOro.jpg"
+        image="/assets/CerrodeOro.png"
         ruta="Cerro de Oro"
         distancia="6.4 km"
         desnivel="142 m"

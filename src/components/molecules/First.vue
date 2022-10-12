@@ -30,6 +30,15 @@
   </div>
 </template>
 
+<script>
+export default {
+  name: "First",
+  props: {
+    msg: String,
+  },
+};
+</script>
+
 <style scoped>
 
 * {
